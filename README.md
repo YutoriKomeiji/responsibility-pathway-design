@@ -13,3 +13,18 @@ Responsibility must be designed, not assumed.
 
 ## Status
 Draft v0.1 – Concept definition phase
+
+## Scope
+RPD focuses on organizational and societal responsibility design
+in environments where AI participates in judgment and execution.
+
+## Non-goals
+- This is not a technical AI architecture
+- This is not a governance checklist
+- This is not a legal framework
+
+## Intended users
+- Policymakers
+- Executives
+- Organizational designers
+- AI governance researchers
