@@ -28,3 +28,13 @@ in environments where AI participates in judgment and execution.
 - Executives
 - Organizational designers
 - AI governance researchers
+
+## How to use this framework
+
+This repository provides conceptual tools for designing responsibility pathways
+in AI-involved systems.
+
+You can:
+- Reference RPD in policy or governance documents
+- Use it as a design lens in organizational reform
+- Adapt the framework to your own context (with attribution)
