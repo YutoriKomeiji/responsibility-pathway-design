@@ -34,10 +34,10 @@ in environments where AI participates in judgment and execution.
 This framework is informed by operational discussions on AI preparedness
 and responsibility design:
 
-- AI Preparedness Is Not Readiness — It Is an Operational Role (essay)
+- AI Preparedness Is Not Readiness — It Is an Operational Role (essay, background) 
 https://note.com/dantarg/n/n00da4ff10dfb
 
-- Head of Preparedness: Technical Design for Frontier AI Risk Management --A Technical Perspective on AI Preparedness Architecture-- (eassy)
+- Head of Preparedness: Technical Design for Frontier AI Risk Management --A Technical Perspective on AI Preparedness Architecture-- (essay, background) 
 https://note.com/dantarg/n/nb290a1135115
 
 ## How to use this framework
