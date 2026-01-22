@@ -38,3 +38,15 @@ You can:
 - Reference RPD in policy or governance documents
 - Use it as a design lens in organizational reform
 - Adapt the framework to your own context (with attribution)
+
+---
+
+## Background & original essays (Japanese)
+
+This framework is based on a series of essays originally published in Japanese on note.
+
+- Responsibility Pathway Design – concept and background  
+  https://note.com/dantarg
+
+These essays document the original thinking process and societal context
+behind the framework.
