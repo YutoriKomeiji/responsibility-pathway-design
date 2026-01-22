@@ -1,0 +1,11 @@
+# Core Concepts of Responsibility Pathway Design
+
+This document defines the minimum concepts required to design responsibility explicitly.
+
+- Actor
+- Decision
+- Delegation
+- Execution
+- Outcome
+- Accountability
+- Escalation
