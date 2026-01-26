@@ -1,4 +1,7 @@
 # responsibility-pathway-design
+
+This repository extracts a reusable design pattern from LCA.
+
 Framework for designing responsibility and decision flow in the age of AI
 
 # Responsibility Pathway Design (RPD)
