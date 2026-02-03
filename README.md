@@ -39,6 +39,14 @@ in environments where AI participates in judgment and execution.
 - Where responsibility broke
 - How the pathway was repaired / rolled back
 
+## Example (fictional but realistic)
+What failed:
+- AI recommendation used without explicit ownership
+- Where responsibility broke:
+Decision authority delegated, accountability not reassigned
+- Repair / rollback:
+Manual override restored, decision authority re-bound to role X
+
 ## Related work
 
 This framework is informed by operational discussions on AI preparedness
