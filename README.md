@@ -40,12 +40,14 @@ in environments where AI participates in judgment and execution.
 - How the pathway was repaired / rolled back
 
 ## Example (fictional but realistic)
-What failed:
-- AI recommendation used without explicit ownership
+- What failed:
+  AI recommendation used without explicit ownership
 - Where responsibility broke:
-Decision authority delegated, accountability not reassigned
+  Decision authority delegated,
+  accountability not reassigned
 - Repair / rollback:
-Manual override restored, decision authority re-bound to role X
+  Manual override restored, decision
+  authority re-bound to role X
 
 ## Related work
 
