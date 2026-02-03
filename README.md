@@ -2,7 +2,9 @@
 
 This repository extracts a reusable design pattern from LCA.
 
-Framework for designing responsibility and decision flow in the age of AI
+Framework for designing responsibility and decision flow in the age of AI.
+
+This framework is designed for moments when accountability has already failed.
 
 # Responsibility Pathway Design (RPD)
 
@@ -31,6 +33,11 @@ in environments where AI participates in judgment and execution.
 - Executives
 - Organizational designers
 - AI governance researchers
+
+## When things go wrong (Failure-first view)
+- What failed
+- Where responsibility broke
+- How the pathway was repaired / rolled back
 
 ## Related work
 
