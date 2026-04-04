@@ -70,6 +70,17 @@ You can:
 - Use it as a design lens in organizational reform
 - Adapt the framework to your own context (with attribution)
 
+## Structure
+
+The repository is beginning to move from pure concept definition toward a more explicit framework structure.
+
+Current supporting documents:
+- `docs/principles.md` — core design principles of Responsibility Pathway Design
+- `docs/layer-model.md` — layered model for locating responsibility, breaks, and repair paths
+- `docs/failure-and-repair-examples.md` — compact framework-oriented examples of pathway failure, repair, rollback, and rebinding
+
+This structure will be expanded gradually with future terminology, governance examples, and additional use cases.
+
 ---
 
 ## Background & original essays (Japanese)
