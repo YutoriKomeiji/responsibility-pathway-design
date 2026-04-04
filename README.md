@@ -57,8 +57,9 @@ The repository is beginning to move from pure concept definition toward a more e
 Current supporting documents:
 - `docs/principles.md` — core design principles of Responsibility Pathway Design
 - `docs/layer-model.md` — layered model for locating responsibility, breaks, and repair paths
+- `docs/failure-and-repair-examples.md` — compact framework-oriented examples of pathway failure, repair, rollback, and rebinding
 
-This structure will be expanded gradually with future examples, terminology, and failure / repair cases.
+This structure will be expanded gradually with future terminology, governance examples, and additional use cases.
 
 ---
 
