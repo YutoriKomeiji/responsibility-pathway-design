@@ -1,94 +1,123 @@
-# responsibility-pathway-design
-
-This repository extracts a reusable design pattern from LCA.
-
-Framework for designing responsibility and decision flow in the age of AI.
-
-This framework is designed for moments when accountability has already failed.
-
 # Responsibility Pathway Design (RPD)
 
-Responsibility Pathway Design (RPD) is a framework for designing how
-decisions, delegation, execution, outcomes, and responsibility
-flow through organizations in the age of AI.
+Responsibility Pathway Design (RPD) is a higher-order design framework for governing how responsibility:
 
-## Why this matters
-AI systems now participate in judgment and execution.
-Responsibility must be designed, not assumed.
+- flows
+- breaks
+- returns
+- is rebound
+- is repaired
 
-## Status
-Draft v0.1 – Concept definition phase
+across AI-involved systems.
 
-## Scope
-RPD focuses on organizational and societal responsibility design
-in environments where AI participates in judgment and execution.
+RPD is not another local execution technique.  
+It sits above prompt engineering, context engineering, harness engineering, governance structures, and accountability assignment.
 
-## Non-goals
-- This is not a technical AI architecture
-- This is not a governance checklist
-- This is not a legal framework
+## Why this repository exists
 
-## Intended users
-- Policymakers
-- Executives
-- Organizational designers
-- AI governance researchers
+AI systems increasingly participate in judgment and execution.  
+That makes it insufficient to ask only:
 
-## When things go wrong (Failure-first view)
-- What failed
-- Where responsibility broke
-- How the pathway was repaired / rolled back
+- who is responsible?
 
-## Example (fictional but realistic)
-- What failed:
-  AI recommendation used without explicit ownership
-- Where responsibility broke:
-  Decision authority delegated,
-  accountability not reassigned
-- Repair / rollback:
-  Manual override restored, decision
-  authority re-bound to role X
+We also need to ask:
 
-## Related work
+- how does responsibility move?
+- where can it break?
+- where does it return to a human role?
+- who owns interruption, repair, and rollback?
 
-This framework is informed by operational discussions on AI preparedness
-and responsibility design:
+This repository develops RPD as a reusable framework for those questions.
 
-- AI Preparedness Is Not Readiness — It Is an Operational Role (essay, background) 
-https://note.com/dantarg/n/n00da4ff10dfb
+## Start here
 
-- Head of Preparedness: Technical Design for Frontier AI Risk Management --A Technical Perspective on AI Preparedness Architecture-- (essay, background) 
-https://note.com/dantarg/n/nb290a1135115
+If you are new to the repository, begin with:
 
-## How to use this framework
+- [`START-HERE.md`](./START-HERE.md)
+- [`docs/start-here.md`](./docs/start-here.md)
 
-This repository provides conceptual tools for designing responsibility pathways
-in AI-involved systems.
+## Core reading path
 
-You can:
-- Reference RPD in policy or governance documents
-- Use it as a design lens in organizational reform
-- Adapt the framework to your own context (with attribution)
+1. [`docs/principles.md`](./docs/principles.md)
+2. [`docs/layer-model.md`](./docs/layer-model.md)
+3. [`docs/failure-and-repair-examples.md`](./docs/failure-and-repair-examples.md)
+4. [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
+5. [`docs/terminology-and-nearby-concepts.md`](./docs/terminology-and-nearby-concepts.md)
+6. [`docs/operating-questions.md`](./docs/operating-questions.md)
 
-## Structure
+## What RPD is not
 
-The repository is beginning to move from pure concept definition toward a more explicit framework structure.
+- not a technical AI architecture
+- not a governance checklist
+- not a legal doctrine
+- not a replacement for harness engineering
 
-Current supporting documents:
-- `docs/principles.md` — core design principles of Responsibility Pathway Design
-- `docs/layer-model.md` — layered model for locating responsibility, breaks, and repair paths
-- `docs/failure-and-repair-examples.md` — compact framework-oriented examples of pathway failure, repair, rollback, and rebinding
+## What RPD adds
 
-This structure will be expanded gradually with future terminology, governance examples, and additional use cases.
+RPD focuses on:
 
----
+- responsibility continuity
+- breakpoints and rebinding
+- human return points
+- interruption and override ownership
+- repair and rollback ownership
+- transition into organizational responsibility
 
-## Background & original essays (Japanese)
+## Positioning
 
-This framework is based on a series of essays originally published in Japanese on note.
+Harness engineering stabilizes execution.  
+RPD governs how judgment, delegation, execution, interruption, repair, and organizational responsibility flow across that execution.
 
-- Responsibility Pathway Design – concept and background  
-  https://note.com/dantarg
+For the full positioning statement, read:
 
-These essays document the original thinking process and societal context
-behind the framework.
+- [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
+
+## Nearby concepts
+
+RPD overlaps with, but is not reducible to, terms such as:
+
+- Responsibility Engineering
+- Responsibility Architecture
+- End-to-End Accountability Design
+- Sociotechnical Governance
+- AI Governance
+- Human-in-the-loop
+- Logging / Auditability
+
+For the comparison layer, read:
+
+- [`docs/terminology-and-nearby-concepts.md`](./docs/terminology-and-nearby-concepts.md)
+
+## Intended uses
+
+This repository can be used for:
+
+- AI deployment review
+- governance and operating design discussion
+- incident post-mortem structure
+- pre-mortem review for new workflows
+- organizational redesign around AI-involved execution
+
+## Background
+
+This framework grows out of a Japanese essay series originally published on note.  
+Those essays contain the conceptual origin and societal context behind the framework.
+
+- note author page:  
+  [https://note.com/dantarg](https://note.com/dantarg)
+
+## Current repository direction
+
+The repository is no longer only a concept placeholder.  
+It now contains:
+
+- principles
+- a layer model
+- failure and repair examples
+- positioning above harness engineering
+- terminology differentiation
+- operating questions
+- start-here entrypoints
+
+README now serves as a front-door summary.  
+The framework itself lives in the linked documents above.
