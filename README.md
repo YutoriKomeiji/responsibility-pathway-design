@@ -13,6 +13,17 @@ across AI-involved systems.
 RPD is not another local execution technique.  
 It sits above prompt engineering, context engineering, harness engineering, governance structures, and accountability assignment.
 
+## Layer position
+
+RPD is the human-readable design layer between:
+
+- Responsibility Pathway Model (RPM): theoretical and manuscript layer
+- Responsibility Pathway Engineering (RPE): specification, template, checker, and implementation-adjacent layer
+
+RPD translates responsibility-pathway concepts into reviewable design language, operating questions, examples, and boundary vocabulary.
+
+It does not replace the theoretical authority of RPM or the implementation-adjacent boundary work of RPE.
+
 ## Why this repository exists
 
 AI systems increasingly participate in judgment and execution.  
@@ -51,6 +62,9 @@ If you are new to the repository, begin with:
 - not a governance checklist
 - not a legal doctrine
 - not a replacement for harness engineering
+- not a certification framework
+- not a safety, compliance, fairness, or production-readiness proof
+- not a transfer of final responsibility to AI
 
 ## What RPD adds
 
@@ -71,6 +85,22 @@ RPD governs how judgment, delegation, execution, interruption, repair, and organ
 For the full positioning statement, read:
 
 - [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
+
+## Public boundary
+
+This repository is public so that the design vocabulary, examples, and operating questions can be inspected, reused, criticized, and improved.
+
+Public visibility does not mean that RPD is complete, externally reviewed, standardized, certified, legally valid, safe for deployment, compliance-approved, fairness-approved, or production-ready.
+
+Use RPD as a design and review language. Do not treat it as a legal judgment, safety certification, governance approval, or implementation guarantee.
+
+## Authority boundary
+
+This repository is a public design surface.
+
+It does not by itself establish canonical theory, publication readiness, submission approval, legal conclusions, or implementation authority.
+
+Long-form canon, publication decisions, external submissions, and final human judgments remain outside this public repository unless explicitly approved by the human author.
 
 ## Nearby concepts
 
