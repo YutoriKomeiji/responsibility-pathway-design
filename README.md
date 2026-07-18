@@ -2,7 +2,11 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
+**Language:** English · [日本語](./README.ja.md)
+
+**Current status:** **provisional, reviewable RPD v0.1 research baseline**. This indicates internal coherence and inspectability only; it is not external validation, certification, legal authority, safety proof, compliance proof, production readiness, or authorization to operate.
+
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md) · [GitHub Pages](https://yutorikomeiji.github.io/responsibility-pathway-design/)
 
 ---
 
@@ -86,13 +90,12 @@ RPD does **not** assume that every transition should be reversible. It distingui
 1. [Start Here](./START-HERE.md)
 2. [Theory Stack and Interfaces](./docs/theory-stack-and-interfaces.md)
 3. [Transformation Kernel v0.1](./docs/transformation-kernel-v0.1.md)
-4. [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md)
-5. [Principles](./docs/principles.md)
-6. [Layer Model](./docs/layer-model.md)
+4. [Normative-Source Input Contract v0.1](./docs/normative-source-input-contract-v0.1.md)
+5. [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md)
+6. [RPD v0.1 Stabilization and Release-Readiness Audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md)
 
 ### Design method
 
-- [Normative-Source Input Contract v0.1](./docs/normative-source-input-contract-v0.1.md)
 - [Pattern Language v0.1](./docs/pattern-language-v0.1.md)
 - [Anti-Patterns v0.1](./docs/anti-patterns-v0.1.md)
 - [Pattern Composition Rules v0.1](./docs/pattern-composition-rules-v0.1.md)
@@ -155,7 +158,7 @@ RPD may support:
 ## Research status and boundaries
 
 > [!IMPORTANT]
-> RPD is a developing design framework and research program. It is not an established academic discipline, legal doctrine, certification framework, or proof of safety, fairness, compliance, or production readiness.
+> RPD is a developing design framework and research program. It is not an established academic discipline, legal doctrine, certification framework, or proof of safety, fairness, compliance, effectiveness, social acceptance, or production readiness.
 
 Following approval of the [stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md), RPD v0.1 may be described as a **provisional, reviewable research baseline**. This describes internal coherence and inspectability only; external validation, comparative evaluation, standardization, certification, and operational authorization remain open.
 
