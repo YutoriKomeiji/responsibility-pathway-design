@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Operating questions](./docs/operating-questions.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
 
 ---
 
@@ -25,7 +25,7 @@ flowchart LR
     A[Responsibility concepts] --> B[RPM: analyze and diagnose]
     B --> C[RPD: translate and select designs]
     C --> D[RPE: specify, implement, check, operate]
-    D --> E[Operational evidence and revision]
+    D --> E[Assurance, operational evidence, and revision]
     E --> B
 ```
 
@@ -44,6 +44,7 @@ finding
   → trade-off record
   → selected design
   → verification obligation
+  → assurance and reopening conditions
 ```
 
 ## What RPD designs
@@ -74,12 +75,24 @@ RPD does **not** assume that every transition should be reversible. It distingui
 4. [Principles](./docs/principles.md)
 5. [Layer Model](./docs/layer-model.md)
 
-### Practice and review
+### Design method
 
 - [Pattern Language v0.1](./docs/pattern-language-v0.1.md)
 - [Anti-Patterns v0.1](./docs/anti-patterns-v0.1.md)
+- [Pattern Composition Rules v0.1](./docs/pattern-composition-rules-v0.1.md)
+- [Evaluation Protocol v0.1](./docs/evaluation-protocol-v0.1.md)
 - [Transformation Record Template](./templates/rpd-transformation-record-v0.1.md)
+- [Composition and Evaluation Record](./templates/rpd-composition-evaluation-record-v0.1.md)
 - [Worked ERP Transformation Example](./examples/erp-detection-without-stop-authority-v0.1.md)
+
+### Assurance and operation
+
+- [Assurance Interface v0.1](./docs/assurance-interface-v0.1.md)
+- [Operational Monitoring and Reopening Protocol v0.1](./docs/operational-monitoring-and-reopening-v0.1.md)
+- [Assurance Case Record Template](./templates/rpd-assurance-case-record-v0.1.md)
+
+### Background and review
+
 - [Failure and Repair Examples](./docs/failure-and-repair-examples.md)
 - [Operating Questions](./docs/operating-questions.md)
 - [Positioning above Harness Engineering](./docs/positioning-above-harness-engineering.md)
@@ -94,7 +107,8 @@ RPD may support:
 - organizational redesign around AI-involved execution;
 - responsibility handoff and escalation design;
 - review of interruption, rollback, remedy, and residual ownership;
-- research on responsibility-pathway design patterns and evaluation.
+- research on responsibility-pathway design patterns and evaluation;
+- assurance-claim tracing, operational monitoring, and reopening decisions.
 
 ## Research status and boundaries
 
@@ -108,7 +122,8 @@ RPD does not:
 - replace systems safety, human factors, requirements engineering, assurance cases, incident response, or institutional governance;
 - treat logging as completed responsibility;
 - treat technical rollback as completed recovery;
-- guarantee that a formally documented intervention can be exercised in practice.
+- guarantee that a formally documented intervention can be exercised in practice;
+- treat an assurance record or rating as self-authorizing certification.
 
 This public repository is a reviewable design surface. Canonical publication decisions, external submissions, legal conclusions, and final human judgments remain subject to explicit human approval.
 
@@ -125,4 +140,5 @@ Critical comparison, counterexamples, terminology corrections, pattern proposals
 - observed evidence from interpretation;
 - descriptive pathway mapping from normative judgment;
 - structural verification from real-world validation;
-- technical rollback from responsibility recovery.
+- technical rollback from responsibility recovery;
+- assurance argument from certification or final authorization.
