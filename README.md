@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
 
 ---
 
@@ -129,6 +129,7 @@ RPD does **not** assume that every transition should be reversible. It distingui
 ### Cross-document integration
 
 - [Cross-Document Integration Audit and Traceability Matrix v0.1](./docs/cross-document-integration-audit-v0.1.md)
+- [RPD v0.1 Stabilization and Release-Readiness Audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md)
 - [Case Coding and Adjudication Record](./templates/rpd-case-coding-and-adjudication-record-v0.1.md)
 - [Operational Monitoring and Reopening Log](./templates/rpd-operational-monitoring-and-reopening-log-v0.1.md)
 
@@ -156,6 +157,8 @@ RPD may support:
 > [!IMPORTANT]
 > RPD is a developing design framework and research program. It is not an established academic discipline, legal doctrine, certification framework, or proof of safety, fairness, compliance, or production readiness.
 
+Following approval of the [stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md), RPD v0.1 may be described as a **provisional, reviewable research baseline**. This describes internal coherence and inspectability only; external validation, comparative evaluation, standardization, certification, and operational authorization remain open.
+
 RPD does not:
 
 - transfer final responsibility to AI;
@@ -167,7 +170,7 @@ RPD does not:
 - guarantee that a formally documented intervention can be exercised in practice;
 - treat an assurance record or rating as self-authorizing certification.
 
-This public repository is a reviewable design surface. Canonical publication decisions, external submissions, legal conclusions, and final human judgments remain subject to explicit human approval.
+This public repository is a reviewable design surface. Canonical publication decisions, external submissions, legal conclusions, release tags, and final human judgments remain subject to explicit human approval.
 
 ## Background
 
