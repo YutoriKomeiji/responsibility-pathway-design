@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Principles](./docs/principles.md) · [Operating questions](./docs/operating-questions.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Operating questions](./docs/operating-questions.md)
 
 ---
 
@@ -70,11 +70,16 @@ RPD does **not** assume that every transition should be reversible. It distingui
 
 1. [Start Here](./START-HERE.md)
 2. [Theory Stack and Interfaces](./docs/theory-stack-and-interfaces.md)
-3. [Principles](./docs/principles.md)
-4. [Layer Model](./docs/layer-model.md)
+3. [Transformation Kernel v0.1](./docs/transformation-kernel-v0.1.md)
+4. [Principles](./docs/principles.md)
+5. [Layer Model](./docs/layer-model.md)
 
 ### Practice and review
 
+- [Pattern Language v0.1](./docs/pattern-language-v0.1.md)
+- [Anti-Patterns v0.1](./docs/anti-patterns-v0.1.md)
+- [Transformation Record Template](./templates/rpd-transformation-record-v0.1.md)
+- [Worked ERP Transformation Example](./examples/erp-detection-without-stop-authority-v0.1.md)
 - [Failure and Repair Examples](./docs/failure-and-repair-examples.md)
 - [Operating Questions](./docs/operating-questions.md)
 - [Positioning above Harness Engineering](./docs/positioning-above-harness-engineering.md)
