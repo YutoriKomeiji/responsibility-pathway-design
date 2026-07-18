@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
 
 ---
 
@@ -16,19 +16,21 @@ RPD asks:
 - where authority, capability, evidence, or intervention become disconnected;
 - how responsibility returns to a human or institution;
 - who can stop, contest, repair, compensate, reopen, or steward residual impact;
-- how a diagnosed pathway weakness should be translated into a reviewable design.
+- how a diagnosed pathway weakness or authorized normative constraint should be translated into a reviewable design.
 
 ## The core idea
 
 ```mermaid
 flowchart LR
     A[Responsibility concepts] --> B[RPM: analyze and diagnose]
-    B --> C[RPD: translate and select designs]
+    N[Authorized normative sources] --> C[RPD: translate and select designs]
+    B --> C
     C --> D[RPE: specify, implement, check, and technically operate]
     D --> E[Assurance: review bounded claims and evidence]
     E --> F[Operational governance: authorize state decisions]
     F --> G[Monitored operation, challenge, and reopening]
     G --> B
+    G --> N
 ```
 
 RPD is the design-translation layer between:
@@ -36,12 +38,14 @@ RPD is the design-translation layer between:
 - **Responsibility Pathway Model (RPM)** — analysis and diagnosis;
 - **Responsibility Pathway Engineering (RPE)** — specification, implementation, checking, maintenance, and technical operation.
 
+RPD may also receive explicitly authorized normative-source inputs. These remain distinct from RPM findings and must preserve source authority, scope, interpretation, uncertainty, conflict, approval, expiry, and reopening conditions.
+
 Assurance reviews bounded claims and evidence. Operational governance remains the human or institutional authority for continuation, constraint, suspension, redesign, and retirement.
 
-RPD converts findings into:
+RPD converts findings and admitted normative inputs into:
 
 ```text
-finding
+input basis
   → design objective
   → testable requirement
   → intervention alternatives
@@ -81,6 +85,7 @@ RPD does **not** assume that every transition should be reversible. It distingui
 
 ### Design method
 
+- [Normative-Source Input Contract v0.1](./docs/normative-source-input-contract-v0.1.md)
 - [Pattern Language v0.1](./docs/pattern-language-v0.1.md)
 - [Anti-Patterns v0.1](./docs/anti-patterns-v0.1.md)
 - [Pattern Composition Rules v0.1](./docs/pattern-composition-rules-v0.1.md)
@@ -147,6 +152,7 @@ RPD does not:
 
 - transfer final responsibility to AI;
 - determine legal liability;
+- invent or finally interpret law, policy, ethics, or affected-party mandates;
 - replace systems safety, human factors, requirements engineering, assurance cases, incident response, or institutional governance;
 - treat logging as completed responsibility;
 - treat technical rollback as completed recovery;
@@ -167,6 +173,7 @@ Critical comparison, counterexamples, terminology corrections, pattern proposals
 
 - observed evidence from interpretation;
 - descriptive pathway mapping from normative judgment;
+- normative source from its interpretation and design translation;
 - structural verification from real-world validation;
 - technical rollback from responsibility recovery;
 - assurance argument from certification or final authorization.
