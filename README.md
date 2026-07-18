@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
 
 ---
 
@@ -55,6 +55,12 @@ input basis
   → assurance and reopening conditions
 ```
 
+## Verification and validation vocabulary
+
+RPD uses five bounded proposition levels: **D** design verification, **I** implementation verification, **X** exercise verification, **O** operational verification, and **V** broader contextual validation. Evidence at one level does not automatically support the next. The ambiguous term `operational validation` is deprecated for new artifacts; use X, O, or V according to the evidence object.
+
+See [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md) and the [Verification and Validation Record](./templates/rpd-verification-validation-record-v0.1.md).
+
 ## What RPD designs
 
 RPD treats pathway design as a multi-objective problem. Relevant dimensions include:
@@ -80,8 +86,9 @@ RPD does **not** assume that every transition should be reversible. It distingui
 1. [Start Here](./START-HERE.md)
 2. [Theory Stack and Interfaces](./docs/theory-stack-and-interfaces.md)
 3. [Transformation Kernel v0.1](./docs/transformation-kernel-v0.1.md)
-4. [Principles](./docs/principles.md)
-5. [Layer Model](./docs/layer-model.md)
+4. [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md)
+5. [Principles](./docs/principles.md)
+6. [Layer Model](./docs/layer-model.md)
 
 ### Design method
 
@@ -91,6 +98,7 @@ RPD does **not** assume that every transition should be reversible. It distingui
 - [Pattern Composition Rules v0.1](./docs/pattern-composition-rules-v0.1.md)
 - [Evaluation Protocol v0.1](./docs/evaluation-protocol-v0.1.md)
 - [Transformation Record Template](./templates/rpd-transformation-record-v0.1.md)
+- [Verification and Validation Record](./templates/rpd-verification-validation-record-v0.1.md)
 - [Composition and Evaluation Record](./templates/rpd-composition-evaluation-record-v0.1.md)
 - [Worked ERP Transformation Example](./examples/erp-detection-without-stop-authority-v0.1.md)
 
@@ -174,6 +182,8 @@ Critical comparison, counterexamples, terminology corrections, pattern proposals
 - observed evidence from interpretation;
 - descriptive pathway mapping from normative judgment;
 - normative source from its interpretation and design translation;
-- structural verification from real-world validation;
+- design verification from implementation verification;
+- exercise evidence from operational evidence;
+- operational verification from broader contextual validation;
 - technical rollback from responsibility recovery;
 - assurance argument from certification or final authorization.
