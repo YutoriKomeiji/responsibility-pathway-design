@@ -1,153 +1,123 @@
 # Responsibility Pathway Design (RPD)
 
-Responsibility Pathway Design (RPD) is a higher-order design framework for governing how responsibility:
+> **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-- flows
-- breaks
-- returns
-- is rebound
-- is repaired
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Principles](./docs/principles.md) · [Operating questions](./docs/operating-questions.md)
 
-across AI-involved systems.
+---
 
-RPD is not another local execution technique.  
-It sits above prompt engineering, context engineering, harness engineering, governance structures, and accountability assignment.
+## The problem
 
-## Layer position
+AI systems increasingly participate in judgment and execution. Naming an owner, preserving a log, or adding a human-in-the-loop can still leave a responsibility pathway broken.
 
-RPD is the human-readable design layer between:
+RPD asks:
 
-- Responsibility Pathway Model (RPM): theoretical and manuscript layer
-- Responsibility Pathway Engineering (RPE): specification, template, checker, and implementation-adjacent layer
+- where responsibility-bearing transitions occur;
+- where authority, capability, evidence, or intervention become disconnected;
+- how responsibility returns to a human or institution;
+- who can stop, contest, repair, compensate, reopen, or steward residual impact;
+- how a diagnosed pathway weakness should be translated into a reviewable design.
 
-RPD translates responsibility-pathway concepts into reviewable design language, operating questions, examples, and boundary vocabulary.
+## The core idea
 
-It does not replace the theoretical authority of RPM or the implementation-adjacent boundary work of RPE.
+```mermaid
+flowchart LR
+    A[Responsibility concepts] --> B[RPM: analyze and diagnose]
+    B --> C[RPD: translate and select designs]
+    C --> D[RPE: specify, implement, check, operate]
+    D --> E[Operational evidence and revision]
+    E --> B
+```
 
-## Why this repository exists
+RPD is the design-translation layer between:
 
-AI systems increasingly participate in judgment and execution.  
-That makes it insufficient to ask only:
+- **Responsibility Pathway Model (RPM)** — analysis and diagnosis;
+- **Responsibility Pathway Engineering (RPE)** — specification, implementation, checking, and operation.
 
-- who is responsible?
+RPD converts findings into:
 
-We also need to ask:
+```text
+finding
+  → design objective
+  → testable requirement
+  → intervention alternatives
+  → trade-off record
+  → selected design
+  → verification obligation
+```
 
-- how does responsibility move?
-- where can it break?
-- where does it return to a human role?
-- who owns interruption, repair, and rollback?
+## What RPD designs
 
-This repository develops RPD as a reusable framework for those questions.
+RPD treats pathway design as a multi-objective problem. Relevant dimensions include:
 
-## Start here
+| Dimension | Design question |
+|---|---|
+| Authority–capability alignment | Can the actor who detects a problem actually intervene? |
+| Intervention timing | Can intervention occur before the relevant option expires? |
+| Evidence continuity | Can decisions, assumptions, and changes be reconstructed? |
+| Returnability | Is there an accountable human or institutional return point? |
+| Contestability | Can affected parties understand and challenge the transition? |
+| Recovery capacity | Are correction, restoration, compensation, and reform resourced? |
+| Residual stewardship | Who remains responsible for what cannot be undone? |
+| Proportionality | Is irreversibility justified by the purpose and stakes? |
+| Anti-theatre | Are controls exercisable, or merely documented? |
 
-If you are new to the repository, begin with:
+RPD does **not** assume that every transition should be reversible. It distinguishes state reversal from the wider set of response options: stop, suspend, contain, undo, correct, restore, compensate, explain, contest, reform, reopen, and steward irreducible residue.
 
-- [`START-HERE.md`](./START-HERE.md)
-- [`docs/start-here.md`](./docs/start-here.md)
+## Reading paths
 
-## Core reading path
+### First visit
 
-1. [`docs/principles.md`](./docs/principles.md)
-2. [`docs/layer-model.md`](./docs/layer-model.md)
-3. [`docs/failure-and-repair-examples.md`](./docs/failure-and-repair-examples.md)
-4. [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
-5. [`docs/terminology-and-nearby-concepts.md`](./docs/terminology-and-nearby-concepts.md)
-6. [`docs/operating-questions.md`](./docs/operating-questions.md)
+1. [Start Here](./START-HERE.md)
+2. [Theory Stack and Interfaces](./docs/theory-stack-and-interfaces.md)
+3. [Principles](./docs/principles.md)
+4. [Layer Model](./docs/layer-model.md)
 
-## What RPD is not
+### Practice and review
 
-- not a technical AI architecture
-- not a governance checklist
-- not a legal doctrine
-- not a replacement for harness engineering
-- not a certification framework
-- not a safety, compliance, fairness, or production-readiness proof
-- not a transfer of final responsibility to AI
-
-## What RPD adds
-
-RPD focuses on:
-
-- responsibility continuity
-- breakpoints and rebinding
-- human return points
-- interruption and override ownership
-- repair and rollback ownership
-- transition into organizational responsibility
-
-## Positioning
-
-Harness engineering stabilizes execution.  
-RPD governs how judgment, delegation, execution, interruption, repair, and organizational responsibility flow across that execution.
-
-For the full positioning statement, read:
-
-- [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
-
-## Public boundary
-
-This repository is public so that the design vocabulary, examples, and operating questions can be inspected, reused, criticized, and improved.
-
-Public visibility does not mean that RPD is complete, externally reviewed, standardized, certified, legally valid, safe for deployment, compliance-approved, fairness-approved, or production-ready.
-
-Use RPD as a design and review language. Do not treat it as a legal judgment, safety certification, governance approval, or implementation guarantee.
-
-## Authority boundary
-
-This repository is a public design surface.
-
-It does not by itself establish canonical theory, publication readiness, submission approval, legal conclusions, or implementation authority.
-
-Long-form canon, publication decisions, external submissions, and final human judgments remain outside this public repository unless explicitly approved by the human author.
-
-## Nearby concepts
-
-RPD overlaps with, but is not reducible to, terms such as:
-
-- Responsibility Engineering
-- Responsibility Architecture
-- End-to-End Accountability Design
-- Sociotechnical Governance
-- AI Governance
-- Human-in-the-loop
-- Logging / Auditability
-
-For the comparison layer, read:
-
-- [`docs/terminology-and-nearby-concepts.md`](./docs/terminology-and-nearby-concepts.md)
+- [Failure and Repair Examples](./docs/failure-and-repair-examples.md)
+- [Operating Questions](./docs/operating-questions.md)
+- [Positioning above Harness Engineering](./docs/positioning-above-harness-engineering.md)
+- [Terminology and Nearby Concepts](./docs/terminology-and-nearby-concepts.md)
 
 ## Intended uses
 
-This repository can be used for:
+RPD may support:
 
-- AI deployment review
-- governance and operating design discussion
-- incident post-mortem structure
-- pre-mortem review for new workflows
-- organizational redesign around AI-involved execution
+- AI deployment and workflow design reviews;
+- pre-mortem and post-incident analysis;
+- organizational redesign around AI-involved execution;
+- responsibility handoff and escalation design;
+- review of interruption, rollback, remedy, and residual ownership;
+- research on responsibility-pathway design patterns and evaluation.
+
+## Research status and boundaries
+
+> [!IMPORTANT]
+> RPD is a developing design framework and research program. It is not an established academic discipline, legal doctrine, certification framework, or proof of safety, fairness, compliance, or production readiness.
+
+RPD does not:
+
+- transfer final responsibility to AI;
+- determine legal liability;
+- replace systems safety, human factors, requirements engineering, assurance cases, incident response, or institutional governance;
+- treat logging as completed responsibility;
+- treat technical rollback as completed recovery;
+- guarantee that a formally documented intervention can be exercised in practice.
+
+This public repository is a reviewable design surface. Canonical publication decisions, external submissions, legal conclusions, and final human judgments remain subject to explicit human approval.
 
 ## Background
 
-This framework grows out of a Japanese essay series originally published on note.  
-Those essays contain the conceptual origin and societal context behind the framework.
+RPD developed from a Japanese essay series on responsibility pathways and from ongoing work on RPM and RPE. Those writings document the conceptual genealogy, but they are not substitutes for scholarly evidence or external validation.
 
-- note author page:  
-  [https://note.com/dantarg](https://note.com/dantarg)
+- [Author page on note](https://note.com/dantarg)
 
-## Current repository direction
+## Contributing and critique
 
-The repository is no longer only a concept placeholder.  
-It now contains:
+Critical comparison, counterexamples, terminology corrections, pattern proposals, and failure cases are welcome. Strong contributions should distinguish:
 
-- principles
-- a layer model
-- failure and repair examples
-- positioning above harness engineering
-- terminology differentiation
-- operating questions
-- start-here entrypoints
-
-README now serves as a front-door summary.  
-The framework itself lives in the linked documents above.
+- observed evidence from interpretation;
+- descriptive pathway mapping from normative judgment;
+- structural verification from real-world validation;
+- technical rollback from responsibility recovery.
