@@ -2,7 +2,7 @@
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md)
 
 ---
 
@@ -24,15 +24,19 @@ RPD asks:
 flowchart LR
     A[Responsibility concepts] --> B[RPM: analyze and diagnose]
     B --> C[RPD: translate and select designs]
-    C --> D[RPE: specify, implement, check, operate]
-    D --> E[Assurance, operational evidence, and revision]
-    E --> B
+    C --> D[RPE: specify, implement, check, and technically operate]
+    D --> E[Assurance: review bounded claims and evidence]
+    E --> F[Operational governance: authorize state decisions]
+    F --> G[Monitored operation, challenge, and reopening]
+    G --> B
 ```
 
 RPD is the design-translation layer between:
 
 - **Responsibility Pathway Model (RPM)** — analysis and diagnosis;
-- **Responsibility Pathway Engineering (RPE)** — specification, implementation, checking, and operation.
+- **Responsibility Pathway Engineering (RPE)** — specification, implementation, checking, maintenance, and technical operation.
+
+Assurance reviews bounded claims and evidence. Operational governance remains the human or institutional authority for continuation, constraint, suspension, redesign, and retirement.
 
 RPD converts findings into:
 
@@ -87,6 +91,7 @@ RPD does **not** assume that every transition should be reversible. It distingui
 
 ### Assurance and operation
 
+- [RPD–RPE–Assurance–Operational Governance Boundary v0.1](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md)
 - [Assurance Interface v0.1](./docs/assurance-interface-v0.1.md)
 - [Operational Monitoring and Reopening Protocol v0.1](./docs/operational-monitoring-and-reopening-v0.1.md)
 - [Assurance Case Record Template](./templates/rpd-assurance-case-record-v0.1.md)

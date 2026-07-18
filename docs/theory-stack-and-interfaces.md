@@ -16,10 +16,34 @@ Responsibility Pathway Design (RPD)
   design translation and selection
         ↓
 Responsibility Pathway Engineering (RPE)
-  specification, implementation, checking, and operation
+  specification, implementation, checking, and technical operation
+        ↓
+Assurance
+  bounded claim and evidence review
+        ↓
+Operational governance
+  authorized continuation, constraint, suspension, redesign, or retirement
+        ↓
+Monitored operation and revision routes
 ```
 
-RPD is not a substitute for RPM or RPE. It defines the transformation between them.
+RPD is not a substitute for RPM, RPE, assurance, or operational governance. It defines a transformation and handoff between them.
+
+The detailed responsibility-transfer contract is defined in [RPD–RPE–Assurance–Operational Governance Boundary v0.1](./rpd-rpe-assurance-operational-governance-boundary-v0.1.md).
+
+## Layer interpretation
+
+| Layer | Primary question | Primary output |
+|---|---|---|
+| Responsibility concepts | what meanings and obligations of responsibility are relevant? | explicit conceptual and normative commitments |
+| RPM | where is the responsibility pathway connected, weakened, or broken? | bounded diagnosis with uncertainty and affected scope |
+| RPD | what pathway design should respond to the diagnosis? | objectives, requirements, alternatives, selected design, verification obligations |
+| RPE | how is the selected design specified, implemented, checked, maintained, and technically operated? | implementation and deviation records, evidence and monitoring mechanisms |
+| Assurance | what bounded claims are supported by what evidence and limitations? | claim package, counterevidence, defeaters, uncertainty, review state |
+| Operational governance | what state is authorized under current evidence and conditions? | human- or institution-authorized state decision and follow-up obligations |
+| Operation and revision | what changed in practice and where must the pathway return? | monitoring record, reopening, redesign, or re-diagnosis route |
+
+Routine technical operation may sit with an RPE operational owner. Operational state authority does not thereby move to RPE: continuation, constraint, suspension, redesign, and retirement require an authorized human or institution.
 
 ## Core transformation
 
@@ -155,16 +179,70 @@ An RPD handoff should provide, at minimum:
 - selected design objective;
 - testable requirements;
 - intervention specification;
-- responsible implementation owner;
+- performing actor or system and separate accountable implementation owner;
 - required records and evidence;
 - verification conditions;
 - monitoring and review triggers;
+- escalation destination and response deadline;
 - rollback, suspension, and reopening conditions;
-- expected residual risk;
+- expected residual risk and named residual steward;
 - rejected alternatives and rationale;
-- privacy, security, legal, and organizational constraints.
+- privacy, security, legal, and organizational constraints;
+- prohibited substitutions and deviation-approval authority.
 
-RPE may implement and check these obligations, but implementation success does not by itself establish moral, legal, social, or affected-party acceptance.
+RPE must return a versioned deviation record when an obligation cannot be implemented as handed off. Silence or partial implementation is not acceptance.
+
+RPE may implement and check these obligations, but implementation success does not by itself establish moral, legal, social, operational, or affected-party acceptance.
+
+## Interface from RPE to assurance
+
+RPE should provide:
+
+- versioned specification and implementation records;
+- evidence that implementation matches specification;
+- exercise results where exercisability is claimed;
+- observed-operation evidence limited to a defined period and context;
+- failures, substitutions, unavailable checks, and unresolved deviations;
+- evidence provenance, ownership, retention, and access conditions;
+- monitoring capability and known blind spots.
+
+Assurance reviews scoped propositions. It does not turn implementation evidence into certification or deployment permission.
+
+## Interface from assurance to operational governance
+
+An assurance handoff should provide:
+
+- the exact bounded claim and claim owner;
+- evidence relied upon and evidence unavailable;
+- assumptions, scope limits, counterevidence, defeaters, uncertainty, and dissent;
+- current assurance state;
+- monitoring and reopening triggers;
+- recommended state options and their conditions;
+- matters outside assurance authority.
+
+Assurance may recommend a state. Operational governance authorizes the state through a named human or institution.
+
+## Operational governance and return routes
+
+Operational governance owns decisions to:
+
+- continue;
+- increase monitoring;
+- constrain;
+- suspend;
+- return for redesign;
+- retire;
+- reopen an assurance claim or pathway decision.
+
+Monitoring is a shared interface:
+
+- RPD defines pathway properties and failure conditions;
+- RPE implements and maintains monitoring and evidence mechanisms;
+- assurance evaluates bounded claims against the evidence;
+- operational governance authorizes state changes;
+- affected parties and authorized challengers provide counterevidence and contestation where applicable.
+
+Material implementation failure returns to RPE. A failed or infeasible design returns to RPD. Incorrect pathway modelling returns to RPM. New evidence can reopen assurance and operational decisions without waiting for a scheduled review.
 
 ## Boundary conditions
 
@@ -176,8 +254,11 @@ RPD does not claim to:
 - eliminate irreversible harm;
 - guarantee that a formally present intervention can be exercised in practice;
 - replace systems safety, human factors, requirements engineering, assurance cases, organizational governance, or incident response;
+- authorize operational state transitions;
 - transfer final responsibility to AI.
+
+No layer may silently transfer its accountability to another layer, an artifact, a framework, or an automated component.
 
 ## Research status
 
-RPD is a developing design framework and research program. Its vocabulary, transformation rules, patterns, evaluation protocol, and empirical support remain open to review and revision.
+RPD is a developing design framework and research program. Its vocabulary, transformation rules, patterns, evaluation protocol, empirical support, assurance boundary, and operational-governance interface remain open to review and revision.
