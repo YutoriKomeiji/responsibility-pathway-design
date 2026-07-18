@@ -37,6 +37,19 @@ RPD is not another prompt, context, harness, or local execution technique. It wo
 1. [`docs/terminology-and-nearby-concepts.md`](./docs/terminology-and-nearby-concepts.md)
 2. [`docs/positioning-above-harness-engineering.md`](./docs/positioning-above-harness-engineering.md)
 
+### Test, challenge, and revise the framework
+
+1. [`docs/empirical-validation-protocol-v0.1.md`](./docs/empirical-validation-protocol-v0.1.md)
+2. [`docs/falsification-and-theory-revision-v0.1.md`](./docs/falsification-and-theory-revision-v0.1.md)
+3. [`docs/worked-case-package-guide-v0.1.md`](./docs/worked-case-package-guide-v0.1.md)
+4. [`docs/case-corpus-protocol-v0.1.md`](./docs/case-corpus-protocol-v0.1.md)
+5. [`docs/coding-and-adjudication-manual-v0.1.md`](./docs/coding-and-adjudication-manual-v0.1.md)
+
+### Audit cross-document consistency
+
+1. [`docs/cross-document-integration-audit-v0.1.md`](./docs/cross-document-integration-audit-v0.1.md)
+2. Use its traceability, responsibility-boundary, terminology, template-coverage, and navigation matrices.
+
 ## Minimal RPD workflow
 
 ```text

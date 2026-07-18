@@ -59,7 +59,7 @@ It must also define:
 - who can override automated output
 - who can rebind authority
 - who records the repair
-- how reversibility is preserved
+- how reversibility is preserved or, where reversal is unavailable or unjustified, which remaining response options and residual-stewardship duties apply
 
 ## Principle 6: Responsibility must remain legible across layers
 A pathway can break not only between people, but across layers such as:

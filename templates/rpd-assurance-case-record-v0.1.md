@@ -64,9 +64,9 @@ Claim
 
 ## 5. Evidence register
 
-| Evidence ID | Class | Source / method | Version / date | Supports | Limitations | Independence | Status |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| Evidence ID | Class | Source / method | Version / collection date | Supports | Limitations | Independence / conflicts | Retention / access | Supersession status |
+|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | |
 
 Evidence class: `E0 assertion / E1 document / E2 implementation inspection / E3 exercise / E4 operation / E5 broader validation`.
 
@@ -107,9 +107,9 @@ Evidence class: `E0 assertion / E1 document / E2 implementation inspection / E3 
 
 ## 10. Monitoring and reopening
 
-| Signal | Source | Interval | Warning threshold | Reopening threshold | Suspension condition | Owner |
-|---|---|---|---|---|---|---|
-| | | | | | | |
+| Signal | Source | Interval | Warning threshold | Reopening threshold | Escalation destination | Maximum response time | Evidence to preserve | Suspension condition | Owner |
+|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | |
 
 ### Declared reopening events
 

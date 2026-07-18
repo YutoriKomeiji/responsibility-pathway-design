@@ -102,7 +102,8 @@ Objectives must be stated as pathway properties, not as slogans such as "increas
 A design requirement must be testable and must identify:
 
 - the triggering condition;
-- the obligated actor or system;
+- the performing actor or system;
+- the accountable human or institutional owner;
 - the required response;
 - the allowed time window;
 - the evidence to be produced;

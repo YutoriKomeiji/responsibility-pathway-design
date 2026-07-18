@@ -3,7 +3,11 @@
 ## 1. Report identity
 
 - Study ID and title:
+- Report ID:
 - Report version:
+- Case ID(s) and version(s):
+- Corpus / manifest ID and version, if applicable:
+- Observation log ID(s) and version(s):
 - Study dates:
 - Authors and affiliations:
 - Reviewers:

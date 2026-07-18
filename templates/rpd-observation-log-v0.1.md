@@ -7,7 +7,10 @@ Capture what occurred during an exercise, pilot, incident reconstruction, or fie
 ## Session metadata
 
 - Study ID:
+- Case ID and version:
+- Corpus / manifest ID and version, if applicable:
 - Session ID:
+- Observation log ID and version:
 - Date and time:
 - Setting:
 - Pathway version:

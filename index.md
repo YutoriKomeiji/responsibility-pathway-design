@@ -111,6 +111,19 @@ RPD defines relations among patterns, provisional composition invariants, confli
 5. [Evaluation Protocol](./docs/evaluation-protocol-v0.1.html)
 6. [Worked ERP Example](./examples/erp-detection-without-stop-authority-v0.1.html)
 
+### Assurance, operation, and empirical revision
+
+1. [Assurance Interface](./docs/assurance-interface-v0.1.html)
+2. [Operational Monitoring and Reopening](./docs/operational-monitoring-and-reopening-v0.1.html)
+3. [Empirical Validation Protocol](./docs/empirical-validation-protocol-v0.1.html)
+4. [Falsification and Theory Revision](./docs/falsification-and-theory-revision-v0.1.html)
+5. [Worked Case Package Guide](./docs/worked-case-package-guide-v0.1.html)
+6. [AI-Assisted Benefit Review Worked Case](./examples/ai-assisted-benefit-review-worked-case-v0.1.html)
+7. [Case Corpus Protocol](./docs/case-corpus-protocol-v0.1.html)
+8. [Coding and Adjudication Manual](./docs/coding-and-adjudication-manual-v0.1.html)
+9. [Case Corpus Manifest](./templates/rpd-case-corpus-manifest-v0.1.html)
+10. [Cross-Document Integration Audit](./docs/cross-document-integration-audit-v0.1.html)
+
 ## Research status and boundaries
 
 > **RPD is a developing design framework and research program.** It is not an established academic discipline, legal doctrine, certification method, or proof of safety, fairness, compliance, effectiveness, social acceptance, or production readiness.

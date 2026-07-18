@@ -91,6 +91,29 @@ RPD does **not** assume that every transition should be reversible. It distingui
 - [Operational Monitoring and Reopening Protocol v0.1](./docs/operational-monitoring-and-reopening-v0.1.md)
 - [Assurance Case Record Template](./templates/rpd-assurance-case-record-v0.1.md)
 
+### Empirical validation and theory revision
+
+- [Empirical Validation Protocol v0.1](./docs/empirical-validation-protocol-v0.1.md)
+- [Falsification and Theory Revision v0.1](./docs/falsification-and-theory-revision-v0.1.md)
+- [Empirical Research Roadmap v0.1](./docs/empirical-research-roadmap-v0.1.md)
+- [Empirical Study Record](./templates/rpd-empirical-study-record-v0.1.md)
+- [Study Result Report](./templates/rpd-study-result-report-v0.1.md)
+
+### Worked cases and case corpus
+
+- [Worked Case Package Guide v0.1](./docs/worked-case-package-guide-v0.1.md)
+- [AI-Assisted Benefit Review Worked Case v0.1](./examples/ai-assisted-benefit-review-worked-case-v0.1.md)
+- [Case Corpus Protocol v0.1](./docs/case-corpus-protocol-v0.1.md)
+- [Coding and Adjudication Manual v0.1](./docs/coding-and-adjudication-manual-v0.1.md)
+- [Pilot Corpus Plan v0.1](./docs/pilot-corpus-plan-v0.1.md)
+- [Case Corpus Manifest](./templates/rpd-case-corpus-manifest-v0.1.md)
+
+### Cross-document integration
+
+- [Cross-Document Integration Audit and Traceability Matrix v0.1](./docs/cross-document-integration-audit-v0.1.md)
+- [Case Coding and Adjudication Record](./templates/rpd-case-coding-and-adjudication-record-v0.1.md)
+- [Operational Monitoring and Reopening Log](./templates/rpd-operational-monitoring-and-reopening-log-v0.1.md)
+
 ### Background and review
 
 - [Failure and Repair Examples](./docs/failure-and-repair-examples.md)

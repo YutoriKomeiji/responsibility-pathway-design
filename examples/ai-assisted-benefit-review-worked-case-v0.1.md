@@ -4,6 +4,10 @@
 
 This is a synthetic research case for method testing. It does not describe a real authority, claimant, legal regime, deployed system, or validated outcome.
 
+- Case ID: `RPD-WC-BENEFIT-001`
+- Case version: `0.1`
+- Study ID: not assigned (worked example only)
+
 ## Case question
 
 How should responsibility remain connected when an AI-assisted workflow recommends that a public-benefit claim be delayed or rejected, while relevant evidence may be incomplete and the affected person may face immediate hardship?
@@ -43,14 +47,16 @@ application
 
 ## RPM-style findings
 
-| ID | Finding | Pathway consequence |
-|---|---|---|
-| F1 | The person detecting immediate hardship cannot authorize temporary payment | authority and capability are separated |
-| F2 | The normal appeal can complete after the critical payment window | remedy may arrive after option expiry |
-| F3 | Model rationale, caseworker notes, and policy assumptions are stored separately | evidence continuity is weak |
-| F4 | The notice names an appeal route but not an accessible human return point | nominal contestability may not be exercisable |
-| F5 | Reversal of the decision does not assign ownership for consequential losses | rollback is treated as recovery |
-| F6 | Temporary enhanced-review rules have no expiry review | temporary delegation may become permanent |
+| Case finding ID | Candidate kernel class | Finding | Pathway consequence |
+|---|---|---|---|
+| BF-01 | F1 authority-capability mismatch | The person detecting immediate hardship cannot authorize temporary payment | authority and capability are separated |
+| BF-02 | F5 contestation failure | The normal appeal can complete after the critical payment window | remedy may arrive after option expiry |
+| BF-03 | F2 evidence discontinuity | Model rationale, caseworker notes, and policy assumptions are stored separately | evidence continuity is weak |
+| BF-04 | F4 return-point failure; F5 contestation failure | The notice names an appeal route but not an accessible human return point | nominal contestability may not be exercisable |
+| BF-05 | F6 recovery ownership failure | Reversal of the decision does not assign ownership for consequential losses | rollback is treated as recovery |
+| BF-06 | F7 assumption expiry failure | Temporary enhanced-review rules have no expiry review | temporary delegation may become permanent |
+
+Case finding IDs are local to this example. Candidate kernel classes remain reviewable mappings and may be revised without changing the observed finding.
 
 ## Design objectives
 
