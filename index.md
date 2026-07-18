@@ -7,7 +7,9 @@ title: Responsibility Pathway Design
 
 > **Designing how responsibility remains connected across judgment, delegation, execution, interruption, recovery, and residual impact in AI-involved sociotechnical systems.**
 
-[Start here](./START-HERE.html) · [Theory stack](./docs/theory-stack-and-interfaces.html) · [Transformation kernel](./docs/transformation-kernel-v0.1.html) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.html) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.html) · [Pattern language](./docs/pattern-language-v0.1.html) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.html) · [GitHub repository](https://github.com/YutoriKomeiji/responsibility-pathway-design)
+**Current status:** **provisional, reviewable RPD v0.1 research baseline**. This indicates internal coherence and inspectability only; it does not establish external validation, certification, legal authority, safety, compliance, production readiness, or authorization to operate.
+
+[Start here](./START-HERE.html) · [Theory stack](./docs/theory-stack-and-interfaces.html) · [Transformation kernel](./docs/transformation-kernel-v0.1.html) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.html) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.html) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.html) · [Pattern language](./docs/pattern-language-v0.1.html) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.html) · [日本語README](https://github.com/YutoriKomeiji/responsibility-pathway-design/blob/main/README.ja.md) · [GitHub repository](https://github.com/YutoriKomeiji/responsibility-pathway-design)
 
 ---
 
@@ -103,6 +105,13 @@ RPD defines relations among patterns, provisional composition invariants, confli
 - [Assurance interface](./docs/assurance-interface-v0.1.html)
 - [RPD–RPE–Assurance–Operational Governance boundary](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.html)
 
+### 5. Stabilization and review readiness
+
+The stabilization audit records the bounded meaning of the provisional RPD v0.1 baseline, current traceability coverage, authority boundaries, navigation coverage, unresolved work, and conditions that should reopen the baseline.
+
+- [RPD v0.1 stabilization and release-readiness audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.html)
+- [Cross-document integration audit](./docs/cross-document-integration-audit-v0.1.html)
+
 ## Design dimensions
 
 | Dimension | Design question |
@@ -124,19 +133,18 @@ RPD defines relations among patterns, provisional composition invariants, confli
 1. [Start Here](./START-HERE.html)
 2. [Theory Stack and Interfaces](./docs/theory-stack-and-interfaces.html)
 3. [Transformation Kernel](./docs/transformation-kernel-v0.1.html)
-4. [Verification and Validation Vocabulary](./docs/verification-validation-vocabulary-v0.1.html)
-5. [Principles](./docs/principles.html)
-6. [Layer Model](./docs/layer-model.html)
+4. [Normative-Source Input Contract](./docs/normative-source-input-contract-v0.1.html)
+5. [Verification and Validation Vocabulary](./docs/verification-validation-vocabulary-v0.1.html)
+6. [RPD v0.1 Stabilization Audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.html)
 
 ### Method and application
 
-1. [Normative-Source Input Contract](./docs/normative-source-input-contract-v0.1.html)
-2. [Pattern Language](./docs/pattern-language-v0.1.html)
-3. [Anti-Patterns](./docs/anti-patterns-v0.1.html)
-4. [Pattern Composition Rules](./docs/pattern-composition-rules-v0.1.html)
-5. [Evaluation Protocol](./docs/evaluation-protocol-v0.1.html)
-6. [Verification and Validation Record](./templates/rpd-verification-validation-record-v0.1.html)
-7. [Worked ERP Example](./examples/erp-detection-without-stop-authority-v0.1.html)
+1. [Pattern Language](./docs/pattern-language-v0.1.html)
+2. [Anti-Patterns](./docs/anti-patterns-v0.1.html)
+3. [Pattern Composition Rules](./docs/pattern-composition-rules-v0.1.html)
+4. [Evaluation Protocol](./docs/evaluation-protocol-v0.1.html)
+5. [Verification and Validation Record](./templates/rpd-verification-validation-record-v0.1.html)
+6. [Worked ERP Example](./examples/erp-detection-without-stop-authority-v0.1.html)
 
 ### Assurance, operation, and empirical revision
 
@@ -156,10 +164,12 @@ RPD defines relations among patterns, provisional composition invariants, confli
 
 > **RPD is a developing design framework and research program.** It is not an established academic discipline, legal doctrine, certification method, or proof of safety, fairness, compliance, effectiveness, social acceptance, or production readiness.
 
+Following approval of the stabilization audit, RPD v0.1 may be described as a **provisional, reviewable research baseline**. This describes internal coherence and inspectability only. External review, empirical validation, comparative evaluation, standardization, certification, and operational authorization remain open.
+
 RPD does not transfer final responsibility to AI, determine legal liability, invent or finally interpret normative sources, replace systems safety or human factors, or treat logging and technical rollback as completed responsibility recovery.
 
-Canonical publication decisions, external submissions, legal conclusions, and final human judgments remain subject to explicit human approval.
+Canonical publication decisions, external submissions, legal conclusions, release tags, and final human judgments remain subject to explicit human approval.
 
 ---
 
-[Explore the repository](https://github.com/YutoriKomeiji/responsibility-pathway-design) · [Author background](https://note.com/dantarg)
+[Explore the repository](https://github.com/YutoriKomeiji/responsibility-pathway-design) · [日本語README](https://github.com/YutoriKomeiji/responsibility-pathway-design/blob/main/README.ja.md) · [Author background](https://note.com/dantarg)
