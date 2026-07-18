@@ -7,6 +7,7 @@
 - Date:
 - Author / team:
 - Reviewers:
+- Evaluator independence and conflicts of interest:
 - Decision authority:
 - Related RPM finding IDs:
 - Related RPD transformation record IDs:

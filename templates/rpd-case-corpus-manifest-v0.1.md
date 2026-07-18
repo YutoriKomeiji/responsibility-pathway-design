@@ -58,19 +58,29 @@
 | Cases with affected-party evidence | |
 | Cases with independent evidence | |
 | Cases independently coded | |
+| Excluded cases | |
+| Quarantined cases | |
 | Withdrawn cases | |
 
 ## 5. Case register
 
-| Case ID | Version | Case family | Pathway scope | Sector/context | Evidence tier | Source status | Coding status | Review status | Public status | Notes |
-|---|---:|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | |
+| Case ID | Version | Study ID | Case family | Pathway scope | Sector/context | Evidence tier | Source status | Coding/adjudication record | Observation log(s) | Result report | Review status | Public status | Notes |
+|---|---:|---|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | | | | |
+
+### Exclusion and quarantine register
+
+Preserve records for screened cases that were not admitted. Do not infer absence of negative evidence from an empty admitted-case register.
+
+| Candidate case ID | Screening date | Decision: excluded / quarantined | Protocol criterion | Reason and evidence | Decision owner | Reconsideration or release condition |
+|---|---|---|---|---|---|---|
+| | | | | | | |
 
 ## 6. Source provenance summary
 
-| Source ID | Case ID | Source type | Custodian | Capture/version date | Permission status | Transformation/redaction | Reliability limits | Retention status |
-|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | |
+| Source ID | Case ID | Source type | Custodian | Collection date | Capture/version date | Permission status | Conflicts of interest | Transformation/redaction | Reliability limits | Retention status | Withdrawal condition |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | | | |
 
 ## 7. Variable and code inventory
 
@@ -117,7 +127,9 @@
 - Confounding:
 - Cases not suitable for direct comparison:
 
-## 11. Negative, null, and rival evidence
+## 11. Positive, null, negative, rival-success, boundary, and inconclusive evidence
+
+Use one or more declared finding types. Do not force a boundary or inconclusive result into a favorable or unfavorable binary.
 
 | Case ID | Finding type | Proposition affected | Observed result | Rival explanation | Theory consequence | Status |
 |---|---|---|---|---|---|---|

@@ -13,6 +13,7 @@ research question
   → comparative scorecard
   → observation logs
   → result report
+  → case-corpus manifest and coding/adjudication records, when admitted to a corpus
   → claim and theory revision
 ```
 
@@ -22,8 +23,12 @@ research question
 2. [`rpd-comparative-case-scorecard-v0.1.md`](../templates/rpd-comparative-case-scorecard-v0.1.md) — structured comparison across pathway properties, burdens, scenarios, and anti-theatre checks.
 3. [`rpd-observation-log-v0.1.md`](../templates/rpd-observation-log-v0.1.md) — time-ordered separation of observable events from interpretation.
 4. [`rpd-study-result-report-v0.1.md`](../templates/rpd-study-result-report-v0.1.md) — bounded reporting of findings, counterevidence, rival explanations, limitations, and theory consequences.
+5. [`rpd-case-corpus-manifest-v0.1.md`](../templates/rpd-case-corpus-manifest-v0.1.md) — corpus admission, provenance, inclusion, exclusion, and cross-artifact references.
+6. [`rpd-case-coding-and-adjudication-record-v0.1.md`](../templates/rpd-case-coding-and-adjudication-record-v0.1.md) — independent codes, source anchors, adjudication, and unresolved minority interpretations.
 
 These complement the [`RPD Empirical Study Record`](../templates/rpd-empirical-study-record-v0.1.md), which should normally be completed before data collection.
+
+Use stable `Study ID`, `Case ID` and version, `Observation Log ID`, `Report ID`, and `Corpus / Manifest ID` values across the package. Admission to a corpus is a separate recorded decision; completing a worked case does not imply admission or release.
 
 ## Minimum use rules
 

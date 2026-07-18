@@ -210,7 +210,7 @@ RPE should return to the assurance package:
 - proposed claim scope;
 - known implementation limitations.
 
-RPD retains responsibility for determining whether deviations require redesign rather than merely updated documentation.
+The named human or institutional design authority applying RPD remains responsible for determining whether deviations require redesign rather than merely updated documentation.
 
 ## Reopening conditions
 

@@ -8,6 +8,7 @@
 - Date:
 - Responsible research owner:
 - Human authorizer:
+- Funding, sponsorship, and conflicts of interest:
 - Study family:
 - Unit of analysis:
 - Status: planned / active / paused / completed / stopped / withdrawn
@@ -49,6 +50,7 @@
 - Missing-evidence treatment:
 - Contradictory-evidence treatment:
 - Stop conditions:
+- Participant or affected-party withdrawal conditions:
 - Planned deviations policy:
 
 ## 6. Pathway trace

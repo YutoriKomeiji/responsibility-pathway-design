@@ -1,5 +1,7 @@
 # Start Here — Responsibility Pathway Design (RPD)
 
+> **Historical entry page.** The maintained entry point is [`../START-HERE.md`](../START-HERE.md). Use that page for the current theory stack, methods, assurance, operational, and empirical research surfaces.
+
 If you are new to this repository, start with this page.
 
 Responsibility Pathway Design (RPD) is a framework for designing how responsibility:
@@ -10,8 +12,7 @@ Responsibility Pathway Design (RPD) is a framework for designing how responsibil
 - is repaired
 across AI-involved systems.
 
-RPD is not another local execution technique.
-It sits above prompt engineering, context engineering, harness engineering, and governance checklists as a higher-order design layer for responsibility continuity.
+RPD is not another local execution technique. It addresses a sociotechnical design concern that intersects with prompt, context, and harness engineering and with governance methods; it does not replace those fields.
 
 ## Read This First
 
