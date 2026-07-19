@@ -66,6 +66,19 @@ RPD may reference RPM findings and RPE implementation targets, but the exact sou
 
 If immutable GitHub Releases are used, all intended release assets and metadata must be assembled and checked in Draft state before publication. An immutable public record must not be created before the canonical design-baseline review is complete.
 
+## Connected repository artifacts
+
+This policy must be read together with:
+
+- [`README.md`](../README.md) and [`START-HERE.md`](../START-HERE.md) for repository status and reader navigation;
+- [`rpd-v0.1-stabilization-and-release-readiness-audit.md`](rpd-v0.1-stabilization-and-release-readiness-audit.md) for baseline readiness findings and bounded approval language;
+- [`cross-document-integration-audit-v0.1.md`](cross-document-integration-audit-v0.1.md) for consistency, terminology, navigation, traceability, and boundary checks;
+- [`verification-validation-vocabulary-v0.1.md`](verification-validation-vocabulary-v0.1.md) for D/I/X/O/V evidence levels;
+- [`rpd-rpe-assurance-operational-governance-boundary-v0.1.md`](rpd-rpe-assurance-operational-governance-boundary-v0.1.md) for cross-layer authority and handoff limits;
+- [`operational-monitoring-and-reopening-v0.1.md`](operational-monitoring-and-reopening-v0.1.md) for post-release challenge and reopening conditions.
+
+Release-readiness language in those artifacts does not itself authorize tagging or publication. The sequence and Human Gates defined here control formal RPD release transitions.
+
 ## Human Gate
 
 Release scope, version number, baseline approval, tag creation, release publication, immutability, citation metadata, and any standardization, certification, or operational claim remain human decisions.
