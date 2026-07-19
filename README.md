@@ -59,6 +59,28 @@ input basis
   → assurance and reopening conditions
 ```
 
+## Long-term direction: normative sources to reviewable design
+
+RPD is intended to provide a disciplined design-translation layer for responsibility requirements arising from laws, public guidelines, standards, organizational policies, professional duties, and affected-party commitments.
+
+The direction is not to let RPD invent, automatically interpret, or finally determine those requirements. Identified humans or institutions must establish source authority, applicable scope, interpretation, uncertainty, conflict, approval status, review ownership, expiry, and reopening conditions before a normative input is admitted into design work.
+
+The intended transformation is:
+
+```text
+official or otherwise authorized normative source
+        ↓ human or institutional interpretation and approval
+admitted normative-source record
+        ↓
+reviewable design objective and testable requirements
+        ↓
+intervention alternatives, trade-offs, verification obligations, and return paths
+        ↓
+RPE implementation under separate assurance and operational-governance gates
+```
+
+This direction includes future work on human-reviewed mappings for sources such as the EU AI regulatory framework, Japanese public AI governance guidance, standards, and organizational requirements. Repository artifacts do not by themselves establish legal correctness, conformity, compliance, certification, or authorization to operate.
+
 ## Verification and validation vocabulary
 
 RPD uses five bounded proposition levels: **D** design verification, **I** implementation verification, **X** exercise verification, **O** operational verification, and **V** broader contextual validation. Evidence at one level does not automatically support the next. The ambiguous term `operational validation` is deprecated for new artifacts; use X, O, or V according to the evidence object.
@@ -153,7 +175,8 @@ RPD may support:
 - responsibility handoff and escalation design;
 - review of interruption, rollback, remedy, and residual ownership;
 - research on responsibility-pathway design patterns and evaluation;
-- assurance-claim tracing, operational monitoring, and reopening decisions.
+- assurance-claim tracing, operational monitoring, and reopening decisions;
+- human-reviewed translation of authorized laws, guidelines, standards, and organizational requirements into reviewable design obligations.
 
 ## Research status and boundaries
 
