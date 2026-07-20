@@ -39,10 +39,12 @@ flowchart LR
 
 RPD is the design-translation layer between:
 
-- **Responsibility Pathway Model (RPM)** — analysis and diagnosis;
-- **Responsibility Pathway Engineering (RPE)** — specification, implementation, checking, maintenance, and technical operation.
+- **[Responsibility Pathway Model (RPM)](https://github.com/YutoriKomeiji/responsibility-pathway-model)** — analysis and diagnosis;
+- **[Responsibility Pathway Engineering (RPE)](https://github.com/YutoriKomeiji/responsibility-pathway-engineering)** — specification, implementation, checking, maintenance, and technical operation.
 
 RPD may also receive explicitly authorized normative-source inputs. These remain distinct from RPM findings and must preserve source authority, scope, interpretation, uncertainty, conflict, approval, expiry, and reopening conditions.
+
+The wider public architecture context is documented in **[Luminalia Core Architecture](https://github.com/YutoriKomeiji/Luminalia-Core-Architecture)**. That repository provides adjacent system-architecture context; it does not replace RPM diagnosis, RPD design translation, RPE implementation authority, or the human and institutional gates described here.
 
 Assurance reviews bounded claims and evidence. Operational governance remains the human or institutional authority for continuation, constraint, suspension, redesign, and retirement.
 
