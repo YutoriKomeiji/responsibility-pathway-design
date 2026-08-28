@@ -6,7 +6,7 @@
 
 **Current status:** **provisional, reviewable RPD v0.1 research baseline**. This indicates internal coherence and inspectability only; it is not external validation, certification, legal authority, safety proof, compliance proof, production readiness, or authorization to operate.
 
-[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md) · [GitHub Pages](https://yutorikomeiji.github.io/responsibility-pathway-design/)
+[Start here](./START-HERE.md) · [Theory stack](./docs/theory-stack-and-interfaces.md) · [Transformation kernel](./docs/transformation-kernel-v0.1.md) · [Normative-source contract](./docs/normative-source-input-contract-v0.1.md) · [Verification vocabulary](./docs/verification-validation-vocabulary-v0.1.md) · [Claim boundary promotion](./docs/claim-boundary-promotion-v0.1.md) · [Stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md) · [Pattern language](./docs/pattern-language-v0.1.md) · [Boundary interface](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md) · [Assurance interface](./docs/assurance-interface-v0.1.md) · [GitHub Pages](https://yutorikomeiji.github.io/responsibility-pathway-design/)
 
 ---
 
@@ -89,6 +89,18 @@ RPD uses five bounded proposition levels: **D** design verification, **I** imple
 
 See [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md) and the [Verification and Validation Record](./templates/rpd-verification-validation-record-v0.1.md).
 
+## Claim boundary and promotion path
+
+RPD does not treat every current research non-claim as a permanent disclaimer. It separates **evidence-limited research boundaries that can move** from **permanent responsibility boundaries that a design-translation framework should not cross by itself**. See [RPD Claim Boundary Promotion v0.1](./docs/claim-boundary-promotion-v0.1.md).
+
+The current `provisional, reviewable research baseline` can advance only through declared evidence routes. Internal coherence can move through independent structured review and counterexample resolution; empirical claims require predeclared studies, case-corpus evidence, adjudication and negative cases; comparative claims require explicit baselines and transparent failure analysis; operational claims require D/I/X/O/V-scoped exercise and operational evidence; broader contextual validity requires multi-domain review, affected-party/institutional evidence and theory revision when findings fail.
+
+Promotion is explicit. A worked example, stabilization audit, downstream implementation, or successful operational case does not automatically establish broad empirical validity, standardization, certification, or authorization.
+
+Permanent responsibility boundaries remain even as RPD matures: RPD does not create or finally interpret law/policy/ethics/standards; determine legal liability; transfer final responsibility to AI; replace systems safety, human factors, assurance, incident response, or institutional governance; treat logging or technical rollback as completed responsibility recovery; or make an assurance record self-authorizing certification.
+
+Where practical, evidence-limited boundaries are tracked as `evidence_collecting`, `review_ready`, or `promoted`; permanent boundaries are `permanently_out_of_scope`.
+
 ## What RPD designs
 
 RPD treats pathway design as a multi-objective problem. Relevant dimensions include:
@@ -116,7 +128,8 @@ RPD does **not** assume that every transition should be reversible. It distingui
 3. [Transformation Kernel v0.1](./docs/transformation-kernel-v0.1.md)
 4. [Normative-Source Input Contract v0.1](./docs/normative-source-input-contract-v0.1.md)
 5. [Verification and Validation Vocabulary v0.1](./docs/verification-validation-vocabulary-v0.1.md)
-6. [RPD v0.1 Stabilization and Release-Readiness Audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md)
+6. [RPD Claim Boundary Promotion v0.1](./docs/claim-boundary-promotion-v0.1.md)
+7. [RPD v0.1 Stabilization and Release-Readiness Audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md)
 
 ### Design method
 
@@ -185,7 +198,7 @@ RPD may support:
 > [!IMPORTANT]
 > RPD is a developing design framework and research program. It is not an established academic discipline, legal doctrine, certification framework, or proof of safety, fairness, compliance, effectiveness, social acceptance, or production readiness.
 
-Following approval of the [stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md), RPD v0.1 may be described as a **provisional, reviewable research baseline**. This describes internal coherence and inspectability only; external validation, comparative evaluation, standardization, certification, and operational authorization remain open.
+Following approval of the [stabilization audit](./docs/rpd-v0.1-stabilization-and-release-readiness-audit.md), RPD v0.1 may be described as a **provisional, reviewable research baseline**. This describes internal coherence and inspectability only. The path toward external review, empirical evidence, comparative evaluation and broader contextual validation is specified in [RPD Claim Boundary Promotion v0.1](./docs/claim-boundary-promotion-v0.1.md); standardization, certification and operational authorization remain separate external processes.
 
 RPD does not:
 
@@ -197,6 +210,8 @@ RPD does not:
 - treat technical rollback as completed recovery;
 - guarantee that a formally documented intervention can be exercised in practice;
 - treat an assurance record or rating as self-authorizing certification.
+
+These are responsibility boundaries. They should not be confused with evidence-limited research gaps that may move through the declared promotion criteria.
 
 This public repository is a reviewable design surface. Canonical publication decisions, external submissions, legal conclusions, release tags, and final human judgments remain subject to explicit human approval.
 
