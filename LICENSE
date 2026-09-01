@@ -1,13 +1,17 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2026 Yutori Komeiji
+Copyright (c) 2026 Akihisa Ono (小野昭久)
 
-This work is licensed under a Creative Commons Attribution 4.0 International License.
+Unless a file or directory explicitly states otherwise, the documentation, design framework, diagrams, templates, examples, research text, and other non-software expressive material in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
-for any purpose, even commercially.
+You are free to share and adapt that material, including for commercial purposes, provided that attribution and the other CC BY 4.0 conditions are satisfied.
 
-Under the following terms:
-- Attribution — You
+Canonical license terms:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+Software source code and executable scripts, when explicitly identified as software, are licensed separately under the MIT License in LICENSE-SOFTWARE-MIT.
+
+See LICENSING.md for repository-specific scope and precedence rules.

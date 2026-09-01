@@ -2,7 +2,9 @@
 
 Responsibility Pathway Design (RPD) is a developing, reviewable design framework. Its provisional research status is a statement about evidence maturity, not a request that others avoid reading, applying, critiquing, or adapting it.
 
-Under the repository's CC BY 4.0 license, readers may share and adapt the material with attribution. The project welcomes real design use because application, counterexamples, failed mappings, ambiguous concepts, and competing designs are part of how the framework can improve.
+RPD uses a scoped licensing model: documentation, design, research text, templates, diagrams, and other non-software expressive material are CC BY 4.0 by default; software and executable scripts explicitly identified as software use the MIT License. See [`LICENSING.md`](LICENSING.md).
+
+Readers may share and adapt the design material with attribution. The project welcomes real design use because application, counterexamples, failed mappings, ambiguous concepts, and competing designs are part of how the framework can improve.
 
 ## What is encouraged
 
