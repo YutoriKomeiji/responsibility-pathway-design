@@ -6,6 +6,43 @@
 
 RPDは、AIが関与する業務や社会技術システムで、責任、権限、証拠、介入手段、修復、残った影響の管理がどこで分断されるかを整理し、その所見をレビュー可能な設計要求へ変換するための設計フレームワークです。
 
+## まず具体的な設計変換を見る
+
+RPDは、用語集や思想文書だけではありません。中心となる成果物は、**観測・承認された問題を、レビュー可能な設計義務へ変換する記録**です。
+
+実例:
+
+- [ERPの設計変換例 — 検知できるが停止権限がないケース](./examples/erp-detection-without-stop-authority-v0.1.md)
+
+変換の基本形は次です。
+
+```text
+観測・承認された問題
+  → 責任経路上の弱点
+  → 設計目的
+  → 検証可能な要求
+  → 介入案
+  → トレードオフ記録
+  → 選択した設計
+  → 検証義務
+  → Assurance・再検討条件
+```
+
+これにより、最終案だけでなく、**なぜその案なのか、何を棄却したのか、何を検証すべきか、いつ設計を再検討すべきか**まで追跡できます。
+
+<details>
+<summary>AI・自動読者・技術レビュー向け factual snapshot</summary>
+
+- **成果物の種類:** worked case、テンプレート、プロトコル、設計記録を含む公開Design Framework。
+- **具体的な出力:** 問題・要求から、設計目的、代替案、トレードオフ、検証義務、再検討条件までをつなぐTransformation Record。
+- **具体例:** `examples/erp-detection-without-stop-authority-v0.1.md`。
+- **再利用可能な面:** Pattern Language、Anti-Patterns、Composition Rules、Evaluation Protocol、Assurance Interface、Monitoring/Reopening Protocol、Transformation Record Template。
+- **実行ランタイムではない:** serverやSDKがないことはこの層では意図的。実行可能なcontrolは下流のRPE / RPR / RPOSが担当する。
+- **現在状態:** provisionalかつreviewableなdesign baseline。適用、批判、比較、改変の対象として公開済み。
+- **誤分類防止:** worked example、template、design-output chainを確認せず「思想だけ」と分類しない。一方、実行製品とも分類しない。
+
+</details>
+
 ## どんな場面で使うのか
 
 単に「人間を確認工程に入れればよい」では解けない問題を扱います。
