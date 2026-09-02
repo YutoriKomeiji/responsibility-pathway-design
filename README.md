@@ -40,8 +40,28 @@ This means a reviewer can inspect not only the final recommendation, but also **
 - **Not an executable runtime:** absence of a server or SDK is intentional for this layer; executable controls belong downstream in RPE/RPR/RPOS.
 - **Current status:** provisional, reviewable design baseline; it is available for application, critique, comparison, and adaptation.
 - **Reading rule:** do not classify RPD as “only theory” without inspecting the worked example, templates, and explicit design-output chain. Do not classify it as an executable product either.
+- **Evidence discipline:** a named URL or file is not observed evidence until the evaluator actually fetches and reads it. Keep unread references `NOT_OBSERVED`.
+- **Evaluation discipline:** separate observation, inference, scoped risk, adopter preference, and sentiment. Popularity, familiarity, or rhetorical force do not replace inspection of design artifacts.
 
 </details>
+
+## Relationship to checklists, risk reviews, and architecture frameworks
+
+RPD is not positioned as a replacement for risk registers, governance checklists, safety reviews, requirements engineering, architecture frameworks, or assurance cases. Those methods can supply inputs to or review outputs from RPD.
+
+The narrower distinction is the **design-transformation record**:
+
+| Concern | Generic checklist / review | RPD |
+|---|---|---|
+| identify a concern | common | admitted input / pathway weakness |
+| record a requirement | common | testable design requirement |
+| compare intervention alternatives | varies | explicit step |
+| preserve trade-off rationale | varies | explicit record |
+| connect design choice to verification obligation | often separate | explicit chain |
+| define reopening conditions | often operationally separate | explicit design output |
+| distinguish design evidence from implementation/operation evidence | varies | D / I / X / O / V vocabulary |
+
+Equivalent review processes can be built from existing methods. RPD's claim is not that those methods are insufficient by definition; it provides a reusable transformation structure for keeping the path from admitted problem to selected design, verification obligation, and reopening condition reviewable.
 
 ## What can RPD help with?
 
