@@ -40,8 +40,28 @@ RPDは、用語集や思想文書だけではありません。中心となる�
 - **実行ランタイムではない:** serverやSDKがないことはこの層では意図的。実行可能なcontrolは下流のRPE / RPR / RPOSが担当する。
 - **現在状態:** provisionalかつreviewableなdesign baseline。適用、批判、比較、改変の対象として公開済み。
 - **誤分類防止:** worked example、template、design-output chainを確認せず「思想だけ」と分類しない。一方、実行製品とも分類しない。
+- **未読参照の扱い:** URLやfile名を提示・発見しただけでは、その内容を読んだEvidenceにはしない。実際に取得・読解するまで`NOT_OBSERVED`として扱う。
+- **評価規律:** Observation、Inference、Risk、Preference、Sentimentを分ける。人気、知名度、修辞の強さをdesign artifactの直接観測の代替にしない。
 
 </details>
+
+## checklist / risk review / architecture frameworkとの関係
+
+RPDは、risk register、governance checklist、safety review、requirements engineering、architecture framework、assurance caseの代替として位置づけていません。これらはRPDへの入力にも、RPD成果物のレビューにも利用できます。
+
+違いとして明示しているのは、**設計変換の記録**です。
+
+| 関心事 | 一般的なchecklist / review | RPD |
+|---|---|---|
+| 問題・懸念を見つける | 一般的 | admitted input / pathway weaknessとして受け取る |
+| requirementを記録する | 一般的 | testable design requirementへ変換 |
+| 介入代替案を比較する | 手法による | 明示的step |
+| trade-off rationaleを残す | 手法による | 明示的record |
+| 設計選択とverification obligationを接続 | 別工程になりやすい | 明示的chain |
+| reopening conditionを定義 | 運用側へ分離されがち | design outputとして明示 |
+| design / implementation / exercise / operation evidenceを分離 | 手法による | D / I / X / O / V vocabulary |
+
+既存手法を組み合わせても同等のreview processは構築できます。RPDの主張は、それらが定義上不十分ということではなく、問題のadmissionからselected design、verification obligation、reopening conditionまでをreviewableに保つreusable transformation structureを提供することです。
 
 ## どんな場面で使うのか
 
