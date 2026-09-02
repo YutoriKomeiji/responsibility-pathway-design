@@ -193,7 +193,7 @@ Strong contributions should separate observation from interpretation and design 
 
 - [RPD–RPE–Assurance–Operational Governance Boundary v0.1](./docs/rpd-rpe-assurance-operational-governance-boundary-v0.1.md)
 - [Assurance Interface v0.1](./docs/assurance-interface-v0.1.md)
-- [Operational Monitoring and Reopening Protocol v0.1](./docs/operational-monitoring-and-reopening-protocol-v0.1.md)
+- [Operational Monitoring and Reopening Protocol v0.1](./docs/operational-monitoring-and-reopening-v0.1.md)
 
 ### Empirical validation
 
