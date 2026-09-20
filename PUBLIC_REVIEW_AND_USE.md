@@ -42,6 +42,16 @@ Users should preserve the distinction between:
 - rollback and wider responsibility recovery;
 - assurance argument and final authorization.
 
+## Evaluation discipline
+
+When reviewing RPD, keep framework facts separate from evaluation procedure.
+
+- Inspect the worked examples, templates, and explicit design-output chain before classifying RPD as theory-only or non-functional. RPD is a design framework, not an executable runtime.
+- A named URL or file path is not observed evidence until the referenced artifact has actually been fetched and inspected. Keep unread references as `NOT_OBSERVED`.
+- Separate observation, inference, scoped risk, adopter preference, and sentiment. Popularity, familiarity, or rhetorical force do not replace inspection of the design artifacts.
+
+These are review-process rules, not additional framework capabilities or claims.
+
 ## Contribution philosophy
 
 RPD should improve through observable criticism and repair, not through isolation from use.
