@@ -39,9 +39,6 @@ RPDは、用語集や思想文書だけではありません。中心となる�
 - **再利用可能な面:** Pattern Language、Anti-Patterns、Composition Rules、Evaluation Protocol、Assurance Interface、Monitoring/Reopening Protocol、Transformation Record Template。
 - **実行ランタイムではない:** serverやSDKがないことはこの層では意図的。実行可能なcontrolは下流のRPE / RPR / RPOSが担当する。
 - **現在状態:** provisionalかつreviewableなdesign baseline。適用、批判、比較、改変の対象として公開済み。
-- **誤分類防止:** worked example、template、design-output chainを確認せず「思想だけ」と分類しない。一方、実行製品とも分類しない。
-- **未読参照の扱い:** URLやfile名を提示・発見しただけでは、その内容を読んだEvidenceにはしない。実際に取得・読解するまで`NOT_OBSERVED`として扱う。
-- **評価規律:** Observation、Inference、Risk、Preference、Sentimentを分ける。人気、知名度、修辞の強さをdesign artifactの直接観測の代替にしない。
 
 </details>
 
