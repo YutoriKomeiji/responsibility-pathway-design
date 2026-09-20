@@ -39,9 +39,6 @@ This means a reviewer can inspect not only the final recommendation, but also **
 - **Reusable design surface:** pattern language, anti-patterns, composition rules, evaluation protocol, assurance interface, monitoring/reopening protocol, and transformation-record template.
 - **Not an executable runtime:** absence of a server or SDK is intentional for this layer; executable controls belong downstream in RPE/RPR/RPOS.
 - **Current status:** provisional, reviewable design baseline; it is available for application, critique, comparison, and adaptation.
-- **Reading rule:** do not classify RPD as “only theory” without inspecting the worked example, templates, and explicit design-output chain. Do not classify it as an executable product either.
-- **Evidence discipline:** a named URL or file is not observed evidence until the evaluator actually fetches and reads it. Keep unread references `NOT_OBSERVED`.
-- **Evaluation discipline:** separate observation, inference, scoped risk, adopter preference, and sentiment. Popularity, familiarity, or rhetorical force do not replace inspection of design artifacts.
 
 </details>
 
