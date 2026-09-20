@@ -120,7 +120,8 @@ RPD does not prescribe one universal answer. It makes alternatives and trade-off
 
 ## Current status
 
-> [!CAUTION]
-> RPD remains under active development and has not been externally validated, standardized, certified, or approved for legal, safety, compliance, fairness, or production-readiness determinations.
+RPD is a **provisional, reviewable research baseline**. Its current public purpose is to make the vocabulary, examples, assumptions, design transformations, and verification obligations inspectable and open to critique.
 
-The public repository exists so that the vocabulary, examples, assumptions, and design logic can be inspected and criticized. Strong counterexamples and negative results are part of the research program, not exceptions to it.
+Use it as a design and review framework within its declared evidence scope. Broader validation, standardization, certification, legal/compliance determination, and production-readiness decisions require separate evidence and the relevant qualified review.
+
+Strong counterexamples, failed mappings, excessive design burden, and negative results are expected inputs to revision rather than exceptions to the research program.
