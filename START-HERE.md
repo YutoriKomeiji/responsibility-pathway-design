@@ -22,6 +22,16 @@ Operational governance — authorize state decisions and reopening
 
 RPD is not another prompt, context, harness, or local execution technique. It works at the sociotechnical design layer across people, organizations, interfaces, procedures, evidence, and technical systems.
 
+## Apply it in one sitting — human and AI readers
+
+**Human design/review lead:** Start with the [ERP worked transformation](./examples/erp-detection-without-stop-authority-v0.1.md). Check the original problem and alternatives before reading the selected design. Ask: *Who can intervene within the harm window? Why not the rejected options? What still requires verification?* Then create a [Transformation Record](./templates/rpd-transformation-record-v0.1.md) for your own case.
+
+**AI assistant using RPD:** Read the [Transformation Kernel](./docs/transformation-kernel-v0.1.md), [Responsibility Routing obligations](./docs/responsibility-routing-design-obligations-v0.1.md), [D/I/X/O/V vocabulary](./docs/verification-validation-vocabulary-v0.1.md), and the [Transformation Record](./templates/rpd-transformation-record-v0.1.md) **before** drafting. Output a reviewable record, not just a recommendation. Preserve missing evidence as `unknown`; distinguish interpretation from source Authority; provide more than one feasible intervention; make receiver eligibility, next-route rationale, prohibited actions, effect uncertainty, residual owner and reopening conditions visible. Label unexecuted tests `not evaluated`. Do not invent approval, compliance, operations evidence or Human Gate decisions.
+
+**Human/AI shared acceptance check:** Given the same input, a reviewer should be able to trace `source → objective → requirement → alternatives → selection → evidence obligation → permitted route / return / stop`. A well-written record that cannot answer those questions is **not complete**. A complete design record remains design-stage evidence (D) until higher-level evidence is collected.
+
+These are usage instructions for existing artifacts, not independent verification of RPD's benefits over alternatives.
+
 ## Read according to your goal
 
 ### Understand the framework

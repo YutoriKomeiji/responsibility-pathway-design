@@ -37,6 +37,18 @@ Preserve the distinction among design verification (D), implementation verificat
 
 Do not convert one evidence level into another automatically. Do not turn a design record into certification, legal interpretation, operational authorization, or proof of implementation effectiveness.
 
+## Human and AI reader regression check
+
+For a change to active method, pattern, template, worked example or entry point, verify:
+
+1. A first-time human reader can find a real example and the current record template from the README, Japanese README and Pages landing.
+2. An AI reader can identify which input is observed, inferred, normative, or unknown; every generated decision remains marked as proposed until valid approval exists.
+3. A routing decision records receiver eligibility, existing Authority, uncertain effects, prohibited next actions, residual owner and reconsideration trigger. Human Return is one bounded route, not the default for any blocked state.
+4. Design (D), implementation (I), exercise (X), live operation (O), broader validation (V) are distinct in new or materially revised records. Legacy expressions are not promoted to stronger claims.
+5. Both readers can link each requirement to sources, alternative designs, testable verification obligations and reopening. A selected pattern is not itself proof of effect.
+
+Do not claim human or AI usability has been empirically established by link checks or self-review. Record scenario-based errors and independent reviewer differences before proposing such a claim.
+
 ## Writing rule
 
 Prefer positive scope and ownership descriptions when they preserve the same meaning. Keep explicit negative boundaries where removal would create a plausible over-reading.

@@ -60,6 +60,12 @@ The narrower distinction is the **design-transformation record**:
 
 Equivalent review processes can be built from existing methods. RPD's claim is not that those methods are insufficient by definition; it provides a reusable transformation structure for keeping the path from admitted problem to selected design, verification obligation, and reopening condition reviewable.
 
+## Use RPD to produce a decision-ready record
+
+For a human design lead, start with the [ERP worked case](./examples/erp-detection-without-stop-authority-v0.1.md), then use the [transformation record](./templates/rpd-transformation-record-v0.1.md) to trace an actual issue through alternative designs, chosen requirements, verification and reopening.
+
+For AI-assisted design work, follow the [human/AI reading paths](./START-HERE.md), [route-first handoff obligations](./docs/responsibility-routing-design-obligations-v0.1.md), and [evidence levels](./docs/verification-validation-vocabulary-v0.1.md). Preserve unknowns and source authority; generated recommendations, route choices and completed templates are not permissions or verified effects.
+
 ## What can RPD help with?
 
 Use RPD when a system has more than a simple “human in the loop” problem.

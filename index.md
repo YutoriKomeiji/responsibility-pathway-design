@@ -13,6 +13,12 @@ RPD is a public design framework for AI-involved sociotechnical systems. It help
 
 ---
 
+## Apply RPD as a human or with an AI assistant
+
+Start with the [ERP worked design example](./examples/erp-detection-without-stop-authority-v0.1.html) and its alternatives. Produce an inspectable [design transformation record](./templates/rpd-transformation-record-v0.1.html) with source, requirement, trade-off, selected route and verification obligations. The [human/AI reading paths](./START-HERE.html) explain how to handle missing evidence and avoid attributing operational authority to a generated recommendation.
+
+Current [Responsibility Routing guidance](./docs/responsibility-routing-design-obligations-v0.1.html) treats Human Return as one eligible option, not the destination for every blocked action. The [D/I/X/O/V vocabulary](./docs/verification-validation-vocabulary-v0.1.html) separates planned checks from implementation, exercises, live operation and broader outcomes.
+
 ## Where RPD helps
 
 RPD is useful when “add a human approval step” is not enough.

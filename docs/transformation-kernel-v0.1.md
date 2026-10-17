@@ -92,7 +92,7 @@ The approved, tested, monitored, or remediated scope does not match the actual a
 
 ### F4. Return-point failure
 
-A pathway cannot return to a competent human or institutional decision point when automation, delegation, or organizational handoff becomes unreliable.
+A pathway cannot return to a competent human or institutional decision point **when that specific decision requires eligible human or institutional Authority**. This historical finding class does not classify every blocked, failed, or uncertain transition as requiring Human Return; route-first selection remains governed by the current Responsibility Routing obligations.
 
 ### F5. Contestation failure
 
@@ -213,25 +213,35 @@ A design may legitimately preserve an irreversible transition when irreversibili
 
 When normative sources conflict, RPD may prepare alternatives but must not silently choose a hierarchy. The authorized human or institutional decision, rationale, dissent, and reopening trigger must be recorded.
 
-## 8. Verification obligation
+## 8. Verification obligation and justified next route
 
-Every selected design must produce verification obligations at three levels.
+Every selected design must record five **distinct evidence obligations** under the current [D/I/X/O/V vocabulary](./verification-validation-vocabulary-v0.1.md). Only populate a result when evidence exists; a planned check is not a completed test.
 
-### Design verification
+### D — Design verification
 
-Does the design specification contain the required authority, trigger, evidence, fallback, ownership, and source-trace relationships?
+Does the design specification contain required Authority, trigger, evidence, fallback, ownership, source trace, receiver eligibility, and permitted-route constraints?
 
-### Implementation verification
+### I — Implementation verification
 
-Was the approved design implemented as specified?
+Was the approved design implemented as specified, for the identified version and scope?
 
-### Operational validation
+### X — Exercise verification
 
-Can authorized people and institutions actually exercise the designed response under realistic conditions?
+Could authorized actors exercise the designed response in a declared controlled scenario, including unavailable receivers, timing failures, and unresolved effects?
 
-Formal or technical verification alone does not establish operational validation, legal adequacy, normative correctness, or social legitimacy.
+### O — Operational verification
+
+Did a specific deployed version actually operate as claimed over a documented live period, without assuming exercise evidence proves routine performance?
+
+### V — Broader contextual validation
+
+What independent, affected-party, organizational, comparative, or longitudinal evidence addresses the intended responsibility outcomes beyond live mechanism operation?
+
+Formal or technical verification alone does not establish practical exercise, live performance, legal adequacy, normative correctness, or social legitimacy.
 
 For normative-source-derived requirements, verification must also detect source expiry, supersession, interpretation change, unresolved conflict, and operation beyond the approved scope.
+
+Before handoff, apply [Responsibility Routing design obligations](./responsibility-routing-design-obligations-v0.1.md). Identify the present holder, candidate receiver, receiver eligibility (distinct from technical capability), required existing Authority, evidence and external-effect uncertainty, permitted and prohibited actions, route rationale, expiry, and residual owner. A selected route neither creates Authority nor automatically requires a Human Gate. A return point is one bounded route when an eligible human or institution must decide.
 
 ## 9. Anti-theatre checks
 
