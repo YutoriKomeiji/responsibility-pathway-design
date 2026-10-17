@@ -184,9 +184,9 @@ Test that:
 - escalation is delivered and acknowledged;
 - affected transactions can be identified.
 
-### Operational validation
+### X — Exercise verification (planned, not yet performed)
 
-Run exercises including:
+Run controlled exercises including:
 
 - a true high-severity anomaly;
 - a false positive;
@@ -194,6 +194,25 @@ Run exercises including:
 - an unavailable change owner;
 - a failed suspension command;
 - a case where technical rollback succeeds but customer and financial recovery remains incomplete.
+
+### O — Operational verification (not evaluated)
+
+The scenario supplies no observed deployment period, measured live suspensions, observed escalation timeliness, or confirmed downstream transaction outcomes. Do not cite the design's five-minute target as achieved operating performance.
+
+### V — Broader contextual validation (not evaluated)
+
+No affected-customer study, organizational approval, compensation adequacy evidence, legal review, or independent comparison is provided by this synthetic case.
+
+## 8A. Responsibility Routing for the selected design
+
+This is a **design proposal**, not an actual grant of production privileges.
+
+- **Normal bounded route:** a trained analyst may initiate a scoped, time-bounded suspension **only if** valid delegated Authority and current scope are established; do not infer permission from detection capability.
+- **After suspension request:** if confirmation is unavailable, retain an unresolved effect state and route to reconciliation/readback rather than blindly retrying or declaring success.
+- **Exception needing human Authority:** request a bounded decision from the eligible emergency change owner, with evidence and a response deadline. If the owner is absent or ineligible, use a neutral hold / safe stop as specified, not a ceremonial handoff.
+- **Recovery:** restoring pricing configuration does not close customer/finance effects; the named business recovery owner retains residual stewardship.
+- **Permitted/prohibited actions:** preserve evidence and propose containment; do not expand scope, resume affected flows, or treat tool receipt as external effect without current authorization and evidence.
+- **Status:** route and receiver requirements specified at D level only; implementation, exercise, live-operation, and contextual outcomes remain unverified.
 
 ## 9. Anti-theatre review
 
