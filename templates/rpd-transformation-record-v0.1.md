@@ -1,5 +1,15 @@
 # RPD Transformation Record v0.1
 
+## Reader and AI-use contract
+
+This is a **reviewable design record**, not an authorization decision. Human readers should be able to trace each chosen intervention to an input and a verification obligation. AI-assisted editors must preserve the distinctions among *observed fact*, *inference*, *design proposal*, and *approved decision*.
+
+- Preserve source IDs, verbatim uncertainties, rejected alternatives, dissent, and the original evidence level.
+- Leave a field as `unknown` or `not evaluated` when the evidence does not support it; never fabricate an owner, policy approval, exercise, metric, or result.
+- A machine-generated draft is `draft` until a named eligible authority reviews it. An AI-generated route or completed template does **not** grant Authority.
+- Before handoff, check that every requirement links to a source, owner, verification obligation, and reopening trigger.
+- For nontrivial handoffs, use Section 8A to identify eligible receivers and the allowable next action. Do not default to Human Return merely because a route is blocked.
+
 ## Record control
 
 - Transformation ID:
@@ -166,6 +176,24 @@ Do not collapse this table into a total score unless the aggregation rule and va
 - Source expiry / supersession triggers:
 - Reopening conditions:
 
+## 8A. Responsibility Routing / handoff decision
+
+For consequential handoffs, record **why the next route is permitted**, not merely its destination. Refer to [Responsibility Routing design obligations](../docs/responsibility-routing-design-obligations-v0.1.md).
+
+- Transition / current responsibility holder:
+- Proposed next holder and receiver eligibility evidence:
+- Receiver capability (distinct from eligibility):
+- Required Authority class and existing delegation scope:
+- Current effect status (verified / unresolved / unknown / not applicable) and evidence:
+- Selected route (bounded continuation / delegated AI resolution / neutral hold / reconciliation hold / bounded Human Return / stop with residue / other with justification):
+- Allowed actions:
+- Prohibited actions:
+- Time limit / expiry / re-evaluation condition:
+- Residual owner if the route does not complete:
+- Justification including alternatives and unresolved conflicts:
+
+A route selection is not Authority transfer. Effect uncertainty is not success or failure. Repair or readback does not itself renew permission to resume.
+
 ## 9. Verification obligations
 
 ### Design verification
@@ -180,13 +208,29 @@ Do not collapse this table into a total score unless the aggregation rule and va
 - Test or inspection method:
 - Acceptance conditions:
 
-### Operational validation
+### X — Exercise verification
 
-- Exercise or simulation:
+- Scenario / exercise / simulation:
 - Participants, including affected-party representation where appropriate:
-- Usability and timing checks:
+- Usability and timing measurements:
 - Failure and fallback checks:
-- Source-expiry, supersession, and interpretation-change detection:
+- Result and limitations (not evaluated / met / not met / mixed):
+
+### O — Operational verification
+
+- Real operating period, population, version and scope (if observed):
+- Live operation evidence and deviations:
+- Timing, accessibility, monitoring and reopening observations:
+- Result and limitations (not evaluated / supported / unsupported / mixed):
+
+### V — Broader contextual validation
+
+- Context and affected-party perspectives assessed (if any):
+- Independent comparative / longitudinal / institutional evidence:
+- Unresolved legal, social, fairness and organizational questions:
+- Result and limitations (not evaluated / supported / unsupported / mixed):
+
+The original label `operational validation` is deprecated because an exercise (X) is not proof of live operation (O) or contextual validity (V). See [D/I/X/O/V vocabulary](../docs/verification-validation-vocabulary-v0.1.md).
 
 ## 10. Anti-theatre review
 
