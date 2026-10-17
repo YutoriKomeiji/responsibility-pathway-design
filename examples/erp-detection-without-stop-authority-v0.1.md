@@ -214,6 +214,18 @@ This is a **design proposal**, not an actual grant of production privileges.
 - **Permitted/prohibited actions:** preserve evidence and propose containment; do not expand scope, resume affected flows, or treat tool receipt as external effect without current authorization and evidence.
 - **Status:** route and receiver requirements specified at D level only; implementation, exercise, live-operation, and contextual outcomes remain unverified.
 
+### O — Operational verification (not evaluated)
+
+No deployed-system behavior or measured live response time is reported.
+
+### V — Broader contextual validation (not evaluated)
+
+No independent organizational or affected-customer outcome evidence is reported.
+
+## 8A. Justified responsibility route
+
+This illustrative proposal does not grant any permission. A trained analyst can request a narrowly scoped suspension only within previously established delegation; detection capability alone is not Authority. Unconfirmed suspension results require reconciliation, not a success claim or blind retry. A bounded Human Return is appropriate only for decisions requiring an eligible emergency change owner with timely access to the evidence. If that receiver is unavailable, preserve a neutral hold or safe stop and retain the unresolved effect and business recovery owner. Technical rollback is not closure of customer/financial impacts.
+
 ## 9. Anti-theatre review
 
 The pathway remains defective if:
