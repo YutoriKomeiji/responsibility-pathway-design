@@ -44,11 +44,11 @@ A delegated or automated pathway reaches a state in which no identifiable human 
 
 ### Use when
 
-Use when judgment or execution can leave the direct control of the original actor, especially across automation, organizational boundaries, or long-running processes.
+Use this specific pattern when the **next decision actually requires identified eligible human or institutional Authority**, especially after a delegation or cross-boundary handoff. First assess whether bounded continuation, delegated AI resolution, neutral hold, effect reconciliation, or terminal stop is the justified route. A blocked transition alone is not a Human Gate; see [Responsibility Routing design obligations](./responsibility-routing-design-obligations-v0.1.md).
 
 ### Design response
 
-Define an accountable return point that must receive unresolved, exceptional, contested, or harmful states.
+Define an accountable **and eligible** return point to receive the specific unresolved decision requiring its Authority. Preserve evidence, requested decision scope, unavailable alternatives, effect uncertainty, timeliness, and residual ownership. Other exceptional states may correctly take non-human routes under unchanged delegation.
 
 ### Required elements
 
