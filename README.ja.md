@@ -60,6 +60,12 @@ RPDは、risk register、governance checklist、safety review、requirements eng
 
 既存手法を組み合わせても同等のreview processは構築できます。RPDの主張は、それらが定義上不十分ということではなく、問題のadmissionからselected design、verification obligation、reopening conditionまでをreviewableに保つreusable transformation structureを提供することです。
 
+## 人間とAIが実際に使うには
+
+**人間の設計担当者**は、[ERPの設計例](./examples/erp-detection-without-stop-authority-v0.1.md)で問題・代替案・採用理由を確認し、[設計変換テンプレート](./templates/rpd-transformation-record-v0.1.md)で出典から設計選択・検証義務・再検討条件までをつなぎます。
+
+**AIを使う担当者**は、[開始手順](./START-HERE.md)、[Responsibility Routingの設計義務](./docs/responsibility-routing-design-obligations-v0.1.md)、[D/I/X/O/Vの検証区分](./docs/verification-validation-vocabulary-v0.1.md)を先に参照します。不明点を推測で埋めず、受け手の適格性と許可された行動を区別し、作成した記録そのものを承認や実際の動作実績とみなさないことが必要です。
+
 ## どんな場面で使うのか
 
 単に「人間を確認工程に入れればよい」では解けない問題を扱います。
