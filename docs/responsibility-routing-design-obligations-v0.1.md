@@ -4,6 +4,8 @@ Status: ACTIVE DESIGN GUIDANCE / public construction
 
 Responsibility Pathway Design should ask where responsibility can validly move next, not only where a human return point exists.
 
+Worked example: [An uncertain external write routed to reconciliation rather than nominal Human Return](route-choice-uncertain-write-example.md).
+
 ## Route-first design questions
 
 For every consequential handoff or exception path, identify:
